@@ -1,0 +1,3978 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6b12e0a1cf3fe2e7870af203eaaf655e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6b12e0a1cf3fe2e7870af203eaaf655e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6b12e0a1cf3fe2e7870af203eaaf655e = L.map(
+                "map_6b12e0a1cf3fe2e7870af203eaaf655e",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2180d43c40edcd4aed9e0c4ba48b71ce = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_2180d43c40edcd4aed9e0c4ba48b71ce.addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+            var circle_marker_9fd9dcb093802f27fd42a199bb69a4d8 = L.circleMarker(
+                [20.5937, 78.9629],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_215d47d168f2f7c68af6e54ea3c15d94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_299a315c9ffb16a4815a36e5a4bd2440 = $(`<div id="html_299a315c9ffb16a4815a36e5a4bd2440" style="width: 100.0%; height: 100.0%;">India - 480.5033 persone/km²</div>`)[0];
+                popup_215d47d168f2f7c68af6e54ea3c15d94.setContent(html_299a315c9ffb16a4815a36e5a4bd2440);
+            
+        
+
+        circle_marker_9fd9dcb093802f27fd42a199bb69a4d8.bindPopup(popup_215d47d168f2f7c68af6e54ea3c15d94)
+        ;
+
+        
+    
+    
+            var circle_marker_a44fb858e82ca32468d4296e5831a608 = L.circleMarker(
+                [35.8617, 104.1954],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_b5616a32c7a39d69931ad79b5a4bb04e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc996b984e5e667e80fc01c9e40735e8 = $(`<div id="html_cc996b984e5e667e80fc01c9e40735e8" style="width: 100.0%; height: 100.0%;">China - 151.2696 persone/km²</div>`)[0];
+                popup_b5616a32c7a39d69931ad79b5a4bb04e.setContent(html_cc996b984e5e667e80fc01c9e40735e8);
+            
+        
+
+        circle_marker_a44fb858e82ca32468d4296e5831a608.bindPopup(popup_b5616a32c7a39d69931ad79b5a4bb04e)
+        ;
+
+        
+    
+    
+            var circle_marker_fae86f841c10a3a46552f2ecf0c15ce0 = L.circleMarker(
+                [37.0902, -95.7129],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_d5abf5d36dceed698078490fe41da57d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78258edc399dbb947791ff2694c05038 = $(`<div id="html_78258edc399dbb947791ff2694c05038" style="width: 100.0%; height: 100.0%;">United States - 37.1686 persone/km²</div>`)[0];
+                popup_d5abf5d36dceed698078490fe41da57d.setContent(html_78258edc399dbb947791ff2694c05038);
+            
+        
+
+        circle_marker_fae86f841c10a3a46552f2ecf0c15ce0.bindPopup(popup_d5abf5d36dceed698078490fe41da57d)
+        ;
+
+        
+    
+    
+            var circle_marker_6a0b6ea09a423a3a4ea5c52d150cc647 = L.circleMarker(
+                [-0.7893, 113.9213],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_96847318c38eb455b9b19290adc29dc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcb4d273973b22b15b9cf5c23d111305 = $(`<div id="html_dcb4d273973b22b15b9cf5c23d111305" style="width: 100.0%; height: 100.0%;">Indonesia - 147.8196 persone/km²</div>`)[0];
+                popup_96847318c38eb455b9b19290adc29dc3.setContent(html_dcb4d273973b22b15b9cf5c23d111305);
+            
+        
+
+        circle_marker_6a0b6ea09a423a3a4ea5c52d150cc647.bindPopup(popup_96847318c38eb455b9b19290adc29dc3)
+        ;
+
+        
+    
+    
+            var circle_marker_a9302e44b1968319e3c1d6854de7eed1 = L.circleMarker(
+                [30.3753, 69.3451],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_6a97f7d0cb947b8af7d7530f5934086f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c6aa674b25486afeec67be1775cc1c7 = $(`<div id="html_4c6aa674b25486afeec67be1775cc1c7" style="width: 100.0%; height: 100.0%;">Pakistan - 311.9625 persone/km²</div>`)[0];
+                popup_6a97f7d0cb947b8af7d7530f5934086f.setContent(html_4c6aa674b25486afeec67be1775cc1c7);
+            
+        
+
+        circle_marker_a9302e44b1968319e3c1d6854de7eed1.bindPopup(popup_6a97f7d0cb947b8af7d7530f5934086f)
+        ;
+
+        
+    
+    
+            var circle_marker_24a01783eb0ce8661cb5bcb39cc8afe6 = L.circleMarker(
+                [9.082, 8.6753],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_9b0fa0c6051b898351194325e851635d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85098ac8e3f232e556ad8b4b158d4ade = $(`<div id="html_85098ac8e3f232e556ad8b4b158d4ade" style="width: 100.0%; height: 100.0%;">Nigeria - 245.7312 persone/km²</div>`)[0];
+                popup_9b0fa0c6051b898351194325e851635d.setContent(html_85098ac8e3f232e556ad8b4b158d4ade);
+            
+        
+
+        circle_marker_24a01783eb0ce8661cb5bcb39cc8afe6.bindPopup(popup_9b0fa0c6051b898351194325e851635d)
+        ;
+
+        
+    
+    
+            var circle_marker_6d03965e5ad9688a0598a08013a06e00 = L.circleMarker(
+                [-14.235, -51.9253],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_d8dc2472c667bc2726df485d6b8cc193 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7419340bb0762a0c578f70c655f2c380 = $(`<div id="html_7419340bb0762a0c578f70c655f2c380" style="width: 100.0%; height: 100.0%;">Brazil - 25.8936 persone/km²</div>`)[0];
+                popup_d8dc2472c667bc2726df485d6b8cc193.setContent(html_7419340bb0762a0c578f70c655f2c380);
+            
+        
+
+        circle_marker_6d03965e5ad9688a0598a08013a06e00.bindPopup(popup_d8dc2472c667bc2726df485d6b8cc193)
+        ;
+
+        
+    
+    
+            var circle_marker_fda035acd772680a6ab82a53b3bf8c4d = L.circleMarker(
+                [23.685, 90.3563],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_a6a01817dba6c9f814c76d3409bbbda3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90d2693f505494fd39a0d3a9f78e9ac9 = $(`<div id="html_90d2693f505494fd39a0d3a9f78e9ac9" style="width: 100.0%; height: 100.0%;">Bangladesh - 1328.6803 persone/km²</div>`)[0];
+                popup_a6a01817dba6c9f814c76d3409bbbda3.setContent(html_90d2693f505494fd39a0d3a9f78e9ac9);
+            
+        
+
+        circle_marker_fda035acd772680a6ab82a53b3bf8c4d.bindPopup(popup_a6a01817dba6c9f814c76d3409bbbda3)
+        ;
+
+        
+    
+    
+            var circle_marker_fe5558742ed45e25656062a1124b3a6a = L.circleMarker(
+                [55.7558, 37.6173],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_e0ae03c27b71a946ccae09c8766937e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ab6fc15236b64e38e288ab90bfb8422 = $(`<div id="html_9ab6fc15236b64e38e288ab90bfb8422" style="width: 100.0%; height: 100.0%;">Russia - 8.82 persone/km²</div>`)[0];
+                popup_e0ae03c27b71a946ccae09c8766937e3.setContent(html_9ab6fc15236b64e38e288ab90bfb8422);
+            
+        
+
+        circle_marker_fe5558742ed45e25656062a1124b3a6a.bindPopup(popup_e0ae03c27b71a946ccae09c8766937e3)
+        ;
+
+        
+    
+    
+            var circle_marker_75a94d8ed6f99bc497c956964a428d81 = L.circleMarker(
+                [23.6345, -102.5528],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_0de0bababa33b57f524ed39f23fd1519 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19bbb0c68fe25f0ba534a05d9303b58b = $(`<div id="html_19bbb0c68fe25f0ba534a05d9303b58b" style="width: 100.0%; height: 100.0%;">Mexico - 66.0797 persone/km²</div>`)[0];
+                popup_0de0bababa33b57f524ed39f23fd1519.setContent(html_19bbb0c68fe25f0ba534a05d9303b58b);
+            
+        
+
+        circle_marker_75a94d8ed6f99bc497c956964a428d81.bindPopup(popup_0de0bababa33b57f524ed39f23fd1519)
+        ;
+
+        
+    
+    
+            var circle_marker_d6e0d720439f293bf57dceccc2e72c06 = L.circleMarker(
+                [9.145, 40.4897],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_5e9fd19e76130fdeba26579b1b6e48cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e10522910e68834a292ebc959004624 = $(`<div id="html_2e10522910e68834a292ebc959004624" style="width: 100.0%; height: 100.0%;">Ethiopia - 112.1126 persone/km²</div>`)[0];
+                popup_5e9fd19e76130fdeba26579b1b6e48cc.setContent(html_2e10522910e68834a292ebc959004624);
+            
+        
+
+        circle_marker_d6e0d720439f293bf57dceccc2e72c06.bindPopup(popup_5e9fd19e76130fdeba26579b1b6e48cc)
+        ;
+
+        
+    
+    
+            var circle_marker_bf7f8e27a0491b1d88fe407eec8b30a1 = L.circleMarker(
+                [36.2048, 138.2529],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_e2177e34e231aa522ef78f093cd6ddc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b50e790dc007aae16ebe5b965275af4 = $(`<div id="html_0b50e790dc007aae16ebe5b965275af4" style="width: 100.0%; height: 100.0%;">Japan - 338.2566 persone/km²</div>`)[0];
+                popup_e2177e34e231aa522ef78f093cd6ddc7.setContent(html_0b50e790dc007aae16ebe5b965275af4);
+            
+        
+
+        circle_marker_bf7f8e27a0491b1d88fe407eec8b30a1.bindPopup(popup_e2177e34e231aa522ef78f093cd6ddc7)
+        ;
+
+        
+    
+    
+            var circle_marker_72b53601f57007bd3713e44f12ac06f1 = L.circleMarker(
+                [12.8797, 121.774],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_baeaa952e299de8756958bb82ad51141 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c8a8c34c29ba3736bd082dbb7eb3a35 = $(`<div id="html_8c8a8c34c29ba3736bd082dbb7eb3a35" style="width: 100.0%; height: 100.0%;">Philippines - 393.5251 persone/km²</div>`)[0];
+                popup_baeaa952e299de8756958bb82ad51141.setContent(html_8c8a8c34c29ba3736bd082dbb7eb3a35);
+            
+        
+
+        circle_marker_72b53601f57007bd3713e44f12ac06f1.bindPopup(popup_baeaa952e299de8756958bb82ad51141)
+        ;
+
+        
+    
+    
+            var circle_marker_7b77ca610e241fada922984bdcdfe257 = L.circleMarker(
+                [26.8201, 30.8025],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_29c7e5830c66f7a8a810e1b5b2456e1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ee3220cca668346f21fdcd6bc33e6cf = $(`<div id="html_7ee3220cca668346f21fdcd6bc33e6cf" style="width: 100.0%; height: 100.0%;">Egypt - 113.2318 persone/km²</div>`)[0];
+                popup_29c7e5830c66f7a8a810e1b5b2456e1e.setContent(html_7ee3220cca668346f21fdcd6bc33e6cf);
+            
+        
+
+        circle_marker_7b77ca610e241fada922984bdcdfe257.bindPopup(popup_29c7e5830c66f7a8a810e1b5b2456e1e)
+        ;
+
+        
+    
+    
+            var circle_marker_c8836831b9440da70252c4e4864fc262 = L.circleMarker(
+                [14.0583, 108.2772],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_542450ce1d0cc2b19209c82b30b7aaef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c95aabbd9ce32c945ca73fa0beaf8c2 = $(`<div id="html_0c95aabbd9ce32c945ca73fa0beaf8c2" style="width: 100.0%; height: 100.0%;">Vietnam - 315.411 persone/km²</div>`)[0];
+                popup_542450ce1d0cc2b19209c82b30b7aaef.setContent(html_0c95aabbd9ce32c945ca73fa0beaf8c2);
+            
+        
+
+        circle_marker_c8836831b9440da70252c4e4864fc262.bindPopup(popup_542450ce1d0cc2b19209c82b30b7aaef)
+        ;
+
+        
+    
+    
+            var circle_marker_bbe136a386fcb46e0f67c6918e28b469 = L.circleMarker(
+                [32.4279, 53.688],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_d55c182a3347480e1a11198975be4afe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d76977f077433583a9502944182f246 = $(`<div id="html_1d76977f077433583a9502944182f246" style="width: 100.0%; height: 100.0%;">Iran - 54.9601 persone/km²</div>`)[0];
+                popup_d55c182a3347480e1a11198975be4afe.setContent(html_1d76977f077433583a9502944182f246);
+            
+        
+
+        circle_marker_bbe136a386fcb46e0f67c6918e28b469.bindPopup(popup_d55c182a3347480e1a11198975be4afe)
+        ;
+
+        
+    
+    
+            var circle_marker_5620069ab649425dcd1f84de03fa4c16 = L.circleMarker(
+                [38.9637, 35.2433],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_ff89b728de18a37d76de3432fb353e1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18a81aa1f66d66e1679151599114eb92 = $(`<div id="html_18a81aa1f66d66e1679151599114eb92" style="width: 100.0%; height: 100.0%;">Turkey - 109.5206 persone/km²</div>`)[0];
+                popup_ff89b728de18a37d76de3432fb353e1c.setContent(html_18a81aa1f66d66e1679151599114eb92);
+            
+        
+
+        circle_marker_5620069ab649425dcd1f84de03fa4c16.bindPopup(popup_ff89b728de18a37d76de3432fb353e1c)
+        ;
+
+        
+    
+    
+            var circle_marker_f651aa06be18d964632b5600814f2877 = L.circleMarker(
+                [51.1657, 10.4515],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_438d5ef0d4fbcc3e0301f6363215ad88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d76c26a4fc8013d54a9924bb724b4158 = $(`<div id="html_d76c26a4fc8013d54a9924bb724b4158" style="width: 100.0%; height: 100.0%;">Germany - 238.4002 persone/km²</div>`)[0];
+                popup_438d5ef0d4fbcc3e0301f6363215ad88.setContent(html_d76c26a4fc8013d54a9924bb724b4158);
+            
+        
+
+        circle_marker_f651aa06be18d964632b5600814f2877.bindPopup(popup_438d5ef0d4fbcc3e0301f6363215ad88)
+        ;
+
+        
+    
+    
+            var circle_marker_34f781c1f408f124511bec21650b1dbc = L.circleMarker(
+                [15.87, 100.9925],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_2cd347b1fc010f486cec82c6bf0d2065 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc615202ee65f2fd24b7f419bb9ebd68 = $(`<div id="html_dc615202ee65f2fd24b7f419bb9ebd68" style="width: 100.0%; height: 100.0%;">Thailand - 140.5416 persone/km²</div>`)[0];
+                popup_2cd347b1fc010f486cec82c6bf0d2065.setContent(html_dc615202ee65f2fd24b7f419bb9ebd68);
+            
+        
+
+        circle_marker_34f781c1f408f124511bec21650b1dbc.bindPopup(popup_2cd347b1fc010f486cec82c6bf0d2065)
+        ;
+
+        
+    
+    
+            var circle_marker_87cc4c8befbd04a37ad8caf4dc92c47f = L.circleMarker(
+                [55.3781, -3.436],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_4344f90e0680b932a99482587a36d896 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fd7c2f55f90503480472569f7b58a51 = $(`<div id="html_4fd7c2f55f90503480472569f7b58a51" style="width: 100.0%; height: 100.0%;">United Kingdom - 279.9851 persone/km²</div>`)[0];
+                popup_4344f90e0680b932a99482587a36d896.setContent(html_4fd7c2f55f90503480472569f7b58a51);
+            
+        
+
+        circle_marker_87cc4c8befbd04a37ad8caf4dc92c47f.bindPopup(popup_4344f90e0680b932a99482587a36d896)
+        ;
+
+        
+    
+    
+            var circle_marker_0de8f056fc85768b52dbaa39611b1ef5 = L.circleMarker(
+                [-6.369028, 34.888822],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_bd9c4fe79b09be6191a9bad03073042e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_399d588f4ffa3ba697dd9fdd2b936186 = $(`<div id="html_399d588f4ffa3ba697dd9fdd2b936186" style="width: 100.0%; height: 100.0%;">Tanzania - 76.1324 persone/km²</div>`)[0];
+                popup_bd9c4fe79b09be6191a9bad03073042e.setContent(html_399d588f4ffa3ba697dd9fdd2b936186);
+            
+        
+
+        circle_marker_0de8f056fc85768b52dbaa39611b1ef5.bindPopup(popup_bd9c4fe79b09be6191a9bad03073042e)
+        ;
+
+        
+    
+    
+            var circle_marker_df128268cf6b1357c23563de6d2d2d06 = L.circleMarker(
+                [46.6034, 1.8883],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_d29e7058c889e7c05463edf5f003e6bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8be96b773d3a866bb8c09e6b3a0f6ba0 = $(`<div id="html_8be96b773d3a866bb8c09e6b3a0f6ba0" style="width: 100.0%; height: 100.0%;">France - 118.2646 persone/km²</div>`)[0];
+                popup_d29e7058c889e7c05463edf5f003e6bb.setContent(html_8be96b773d3a866bb8c09e6b3a0f6ba0);
+            
+        
+
+        circle_marker_df128268cf6b1357c23563de6d2d2d06.bindPopup(popup_d29e7058c889e7c05463edf5f003e6bb)
+        ;
+
+        
+    
+    
+            var circle_marker_6a85ab224752ab20ba6889c18cb60c22 = L.circleMarker(
+                [-30.5595, 22.9375],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_68f75b0446cd13ff21f009f3f30e45a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d01e81ec0265a037ffda0c3404e9517 = $(`<div id="html_2d01e81ec0265a037ffda0c3404e9517" style="width: 100.0%; height: 100.0%;">South Africa - 49.8022 persone/km²</div>`)[0];
+                popup_68f75b0446cd13ff21f009f3f30e45a6.setContent(html_2d01e81ec0265a037ffda0c3404e9517);
+            
+        
+
+        circle_marker_6a85ab224752ab20ba6889c18cb60c22.bindPopup(popup_68f75b0446cd13ff21f009f3f30e45a6)
+        ;
+
+        
+    
+    
+            var circle_marker_f0660a22acad64cf6305bd45adafa388 = L.circleMarker(
+                [41.8719, 12.5674],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_2951287d20f5f91a5405f31db82122e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f46c6c0bb1e76474c0d3bf4a6b3a79c = $(`<div id="html_6f46c6c0bb1e76474c0d3bf4a6b3a79c" style="width: 100.0%; height: 100.0%;">Italy - 199.078 persone/km²</div>`)[0];
+                popup_2951287d20f5f91a5405f31db82122e6.setContent(html_6f46c6c0bb1e76474c0d3bf4a6b3a79c);
+            
+        
+
+        circle_marker_f0660a22acad64cf6305bd45adafa388.bindPopup(popup_2951287d20f5f91a5405f31db82122e6)
+        ;
+
+        
+    
+    
+            var circle_marker_8e78a60e8e41703af2d206155a1f3cbf = L.circleMarker(
+                [-1.2921, 36.8219],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_7a3611adec98655fd54b5c87efc6f4a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7619fd2122de676427765f1153686da9 = $(`<div id="html_7619fd2122de676427765f1153686da9" style="width: 100.0%; height: 100.0%;">Kenya - 96.8138 persone/km²</div>`)[0];
+                popup_7a3611adec98655fd54b5c87efc6f4a0.setContent(html_7619fd2122de676427765f1153686da9);
+            
+        
+
+        circle_marker_8e78a60e8e41703af2d206155a1f3cbf.bindPopup(popup_7a3611adec98655fd54b5c87efc6f4a0)
+        ;
+
+        
+    
+    
+            var circle_marker_5e4510525d76226941bac4f346c887d8 = L.circleMarker(
+                [4.5709, -74.2973],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_1dacecb7d14a998883a8532d4fd5e5e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe2449e49ed85ca3e1d379f2ca5bd64f = $(`<div id="html_fe2449e49ed85ca3e1d379f2ca5bd64f" style="width: 100.0%; height: 100.0%;">Colombia - 46.9447 persone/km²</div>`)[0];
+                popup_1dacecb7d14a998883a8532d4fd5e5e0.setContent(html_fe2449e49ed85ca3e1d379f2ca5bd64f);
+            
+        
+
+        circle_marker_5e4510525d76226941bac4f346c887d8.bindPopup(popup_1dacecb7d14a998883a8532d4fd5e5e0)
+        ;
+
+        
+    
+    
+            var circle_marker_98bc5513bc1ffa4de5585cb533c7fe12 = L.circleMarker(
+                [1.3733, 32.2903],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_4dc1e560dc4b5d5b26f6f0533e983088 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f70d0ded06a2ae421a3935e7e65e170b = $(`<div id="html_f70d0ded06a2ae421a3935e7e65e170b" style="width: 100.0%; height: 100.0%;">Uganda - 242.2817 persone/km²</div>`)[0];
+                popup_4dc1e560dc4b5d5b26f6f0533e983088.setContent(html_f70d0ded06a2ae421a3935e7e65e170b);
+            
+        
+
+        circle_marker_98bc5513bc1ffa4de5585cb533c7fe12.bindPopup(popup_4dc1e560dc4b5d5b26f6f0533e983088)
+        ;
+
+        
+    
+    
+            var circle_marker_4c1c8f9d3181a632655c6fa1ed590ee3 = L.circleMarker(
+                [12.8628, 30.8025],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_9fc1daf23beee1687f3ca571c0fe286b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a758d3e3f2c77707af9926120ca0d71 = $(`<div id="html_9a758d3e3f2c77707af9926120ca0d71" style="width: 100.0%; height: 100.0%;">Sudan - 25.7543 persone/km²</div>`)[0];
+                popup_9fc1daf23beee1687f3ca571c0fe286b.setContent(html_9a758d3e3f2c77707af9926120ca0d71);
+            
+        
+
+        circle_marker_4c1c8f9d3181a632655c6fa1ed590ee3.bindPopup(popup_9fc1daf23beee1687f3ca571c0fe286b)
+        ;
+
+        
+    
+    
+            var circle_marker_6dfad64e231599070cd62996a721380a = L.circleMarker(
+                [40.4637, -3.7492],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_4bbda3a885c8d47f09dc83ef1317308f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb23b4d6372e841ca0e0f6db9346af31 = $(`<div id="html_eb23b4d6372e841ca0e0f6db9346af31" style="width: 100.0%; height: 100.0%;">Spain - 95.1236 persone/km²</div>`)[0];
+                popup_4bbda3a885c8d47f09dc83ef1317308f.setContent(html_eb23b4d6372e841ca0e0f6db9346af31);
+            
+        
+
+        circle_marker_6dfad64e231599070cd62996a721380a.bindPopup(popup_4bbda3a885c8d47f09dc83ef1317308f)
+        ;
+
+        
+    
+    
+            var circle_marker_b2467aa075aa67c5b71b955ecfcded28 = L.circleMarker(
+                [-38.4161, -63.6167],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_367a9c22eb44911e0d041573b136ac92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc6f6c318e1311d1c656e484972e8ef3 = $(`<div id="html_bc6f6c318e1311d1c656e484972e8ef3" style="width: 100.0%; height: 100.0%;">Argentina - 16.726 persone/km²</div>`)[0];
+                popup_367a9c22eb44911e0d041573b136ac92.setContent(html_bc6f6c318e1311d1c656e484972e8ef3);
+            
+        
+
+        circle_marker_b2467aa075aa67c5b71b955ecfcded28.bindPopup(popup_367a9c22eb44911e0d041573b136ac92)
+        ;
+
+        
+    
+    
+            var circle_marker_42c0b76f9012ba9e718aefefa91b3275 = L.circleMarker(
+                [28.0339, 1.6596],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_8e2ad02b753f6f10689e4a8edcf06e3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e98ae038590533f4d328f0a8b173c90 = $(`<div id="html_4e98ae038590533f4d328f0a8b173c90" style="width: 100.0%; height: 100.0%;">Algeria - 19.1484 persone/km²</div>`)[0];
+                popup_8e2ad02b753f6f10689e4a8edcf06e3f.setContent(html_4e98ae038590533f4d328f0a8b173c90);
+            
+        
+
+        circle_marker_42c0b76f9012ba9e718aefefa91b3275.bindPopup(popup_8e2ad02b753f6f10689e4a8edcf06e3f)
+        ;
+
+        
+    
+    
+            var circle_marker_d9aec22e986a3134863b1c21868a6e43 = L.circleMarker(
+                [33.2232, 43.6793],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_a2f9ee38a3b2112866e6e65cff3ef15a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b17d37615cc0db22573cbbb8e33e9b7d = $(`<div id="html_b17d37615cc0db22573cbbb8e33e9b7d" style="width: 100.0%; height: 100.0%;">Iraq - 104.8183 persone/km²</div>`)[0];
+                popup_a2f9ee38a3b2112866e6e65cff3ef15a.setContent(html_b17d37615cc0db22573cbbb8e33e9b7d);
+            
+        
+
+        circle_marker_d9aec22e986a3134863b1c21868a6e43.bindPopup(popup_a2f9ee38a3b2112866e6e65cff3ef15a)
+        ;
+
+        
+    
+    
+            var circle_marker_a328a14dfbd11b61bfeb61dde532b27b = L.circleMarker(
+                [33.93911, 67.709953],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_2807a6ab94797e5c1654e47942e0246f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a400e4c4d834c715fb1203d66e43f26d = $(`<div id="html_a400e4c4d834c715fb1203d66e43f26d" style="width: 100.0%; height: 100.0%;">Afghanistan - 64.7622 persone/km²</div>`)[0];
+                popup_2807a6ab94797e5c1654e47942e0246f.setContent(html_a400e4c4d834c715fb1203d66e43f26d);
+            
+        
+
+        circle_marker_a328a14dfbd11b61bfeb61dde532b27b.bindPopup(popup_2807a6ab94797e5c1654e47942e0246f)
+        ;
+
+        
+    
+    
+            var circle_marker_720ca09eb972bdd772c6032a62b827a1 = L.circleMarker(
+                [51.9194, 19.1451],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_99a41cab3bfeedc13ca518fa3514b757 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec0598288873752d2f4117c02f7edca0 = $(`<div id="html_ec0598288873752d2f4117c02f7edca0" style="width: 100.0%; height: 100.0%;">Poland - 134.0152 persone/km²</div>`)[0];
+                popup_99a41cab3bfeedc13ca518fa3514b757.setContent(html_ec0598288873752d2f4117c02f7edca0);
+            
+        
+
+        circle_marker_720ca09eb972bdd772c6032a62b827a1.bindPopup(popup_99a41cab3bfeedc13ca518fa3514b757)
+        ;
+
+        
+    
+    
+            var circle_marker_b11eff5966e9e474b533715c17eceed7 = L.circleMarker(
+                [56.1304, -106.3468],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_cec46dd8c01dce0e019902e3a333fc64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6dc796ec88f2dac79fe65256f41c41f6 = $(`<div id="html_6dc796ec88f2dac79fe65256f41c41f6" style="width: 100.0%; height: 100.0%;">Canada - 4.3256 persone/km²</div>`)[0];
+                popup_cec46dd8c01dce0e019902e3a333fc64.setContent(html_6dc796ec88f2dac79fe65256f41c41f6);
+            
+        
+
+        circle_marker_b11eff5966e9e474b533715c17eceed7.bindPopup(popup_cec46dd8c01dce0e019902e3a333fc64)
+        ;
+
+        
+    
+    
+            var circle_marker_3d5a565a3ee58314ed0afc3484d883b0 = L.circleMarker(
+                [31.7917, -7.0926],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_c4574a63980a0c327ec508fb204ae2db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0b62f7dca436cbafd6d180c68445723 = $(`<div id="html_a0b62f7dca436cbafd6d180c68445723" style="width: 100.0%; height: 100.0%;">Morocco - 84.7861 persone/km²</div>`)[0];
+                popup_c4574a63980a0c327ec508fb204ae2db.setContent(html_a0b62f7dca436cbafd6d180c68445723);
+            
+        
+
+        circle_marker_3d5a565a3ee58314ed0afc3484d883b0.bindPopup(popup_c4574a63980a0c327ec508fb204ae2db)
+        ;
+
+        
+    
+    
+            var circle_marker_d616a855d048b43627744c01c83607b7 = L.circleMarker(
+                [23.8859, 45.0792],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_d718c9d70ed1c3c1101877b2cbad613c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5037e97ab41a9912c3c85e4e44a95933 = $(`<div id="html_5037e97ab41a9912c3c85e4e44a95933" style="width: 100.0%; height: 100.0%;">Saudi Arabia - 17.1871 persone/km²</div>`)[0];
+                popup_d718c9d70ed1c3c1101877b2cbad613c.setContent(html_5037e97ab41a9912c3c85e4e44a95933);
+            
+        
+
+        circle_marker_d616a855d048b43627744c01c83607b7.bindPopup(popup_d718c9d70ed1c3c1101877b2cbad613c)
+        ;
+
+        
+    
+    
+            var circle_marker_cc841049556c82e5b9c110a5e73c7312 = L.circleMarker(
+                [48.3794, 31.1656],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_676bff6f449ed7e0b80c38e848fac9b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a583c40591f2df95da1aecbbb2c1f066 = $(`<div id="html_a583c40591f2df95da1aecbbb2c1f066" style="width: 100.0%; height: 100.0%;">Ukraine - 63.4184 persone/km²</div>`)[0];
+                popup_676bff6f449ed7e0b80c38e848fac9b6.setContent(html_a583c40591f2df95da1aecbbb2c1f066);
+            
+        
+
+        circle_marker_cc841049556c82e5b9c110a5e73c7312.bindPopup(popup_676bff6f449ed7e0b80c38e848fac9b6)
+        ;
+
+        
+    
+    
+            var circle_marker_80510ea4c61b5f26bc25b0c765028724 = L.circleMarker(
+                [-11.2027, 17.8735],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_bdf4e9545aba4cc9ac974083b61a082d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cd604957804d5796060eb8d77a850c4 = $(`<div id="html_1cd604957804d5796060eb8d77a850c4" style="width: 100.0%; height: 100.0%;">Angola - 29.425 persone/km²</div>`)[0];
+                popup_bdf4e9545aba4cc9ac974083b61a082d.setContent(html_1cd604957804d5796060eb8d77a850c4);
+            
+        
+
+        circle_marker_80510ea4c61b5f26bc25b0c765028724.bindPopup(popup_bdf4e9545aba4cc9ac974083b61a082d)
+        ;
+
+        
+    
+    
+            var circle_marker_a10de4a14e004825ddc01911c94d9b6b = L.circleMarker(
+                [41.3775, 64.5853],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_28197b2a4991dc2c3f8b7946d9e49576 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd38affaa654897f39795106a3e3eaf9 = $(`<div id="html_bd38affaa654897f39795106a3e3eaf9" style="width: 100.0%; height: 100.0%;">Uzbekistan - 79.8002 persone/km²</div>`)[0];
+                popup_28197b2a4991dc2c3f8b7946d9e49576.setContent(html_bd38affaa654897f39795106a3e3eaf9);
+            
+        
+
+        circle_marker_a10de4a14e004825ddc01911c94d9b6b.bindPopup(popup_28197b2a4991dc2c3f8b7946d9e49576)
+        ;
+
+        
+    
+    
+            var circle_marker_a84a2aa1093ce47d4d7dca0a35b0c48b = L.circleMarker(
+                [15.552, 48.5164],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_7d8ead37aadd45f0fde343a459c2caa0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c7400dece5367bf40073aa608872fec = $(`<div id="html_6c7400dece5367bf40073aa608872fec" style="width: 100.0%; height: 100.0%;">Yemen - 65.2496 persone/km²</div>`)[0];
+                popup_7d8ead37aadd45f0fde343a459c2caa0.setContent(html_6c7400dece5367bf40073aa608872fec);
+            
+        
+
+        circle_marker_a84a2aa1093ce47d4d7dca0a35b0c48b.bindPopup(popup_7d8ead37aadd45f0fde343a459c2caa0)
+        ;
+
+        
+    
+    
+            var circle_marker_00e21e2ae9f69f27705bf1158445a2ab = L.circleMarker(
+                [-9.19, -75.0152],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_76cf87a33b98e9af4a16f0cc1dc891de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6eb425e74704186a0aa90dd6308c2a85 = $(`<div id="html_6eb425e74704186a0aa90dd6308c2a85" style="width: 100.0%; height: 100.0%;">Peru - 26.8381 persone/km²</div>`)[0];
+                popup_76cf87a33b98e9af4a16f0cc1dc891de.setContent(html_6eb425e74704186a0aa90dd6308c2a85);
+            
+        
+
+        circle_marker_00e21e2ae9f69f27705bf1158445a2ab.bindPopup(popup_76cf87a33b98e9af4a16f0cc1dc891de)
+        ;
+
+        
+    
+    
+            var circle_marker_27a3df8ba281ba597969b627c7abcc8d = L.circleMarker(
+                [4.2105, 101.9758],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_4f3be700f08d1aef44e1a3b6268e8d25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23989f1cf9359e2c41c7303a92453c09 = $(`<div id="html_23989f1cf9359e2c41c7303a92453c09" style="width: 100.0%; height: 100.0%;">Malaysia - 104.4241 persone/km²</div>`)[0];
+                popup_4f3be700f08d1aef44e1a3b6268e8d25.setContent(html_23989f1cf9359e2c41c7303a92453c09);
+            
+        
+
+        circle_marker_27a3df8ba281ba597969b627c7abcc8d.bindPopup(popup_4f3be700f08d1aef44e1a3b6268e8d25)
+        ;
+
+        
+    
+    
+            var circle_marker_ff2bfd9557fbff9aceeff17519771c8d = L.circleMarker(
+                [7.9465, -1.0232],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_0f496e182c4b5612db811fb84b82ccc9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ba5fcd42a4c21993403b62bf299765c = $(`<div id="html_4ba5fcd42a4c21993403b62bf299765c" style="width: 100.0%; height: 100.0%;">Ghana - 149.965 persone/km²</div>`)[0];
+                popup_0f496e182c4b5612db811fb84b82ccc9.setContent(html_4ba5fcd42a4c21993403b62bf299765c);
+            
+        
+
+        circle_marker_ff2bfd9557fbff9aceeff17519771c8d.bindPopup(popup_0f496e182c4b5612db811fb84b82ccc9)
+        ;
+
+        
+    
+    
+            var circle_marker_b8b3ec7ddc6f7a3d4a8a20299b8fbcc1 = L.circleMarker(
+                [-18.6657, 35.5296],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_d30b282e28b7173e38c3d858ddf7d538 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab1dd5b9e220c4a4ddd1591d37d4371a = $(`<div id="html_ab1dd5b9e220c4a4ddd1591d37d4371a" style="width: 100.0%; height: 100.0%;">Mozambique - 43.1056 persone/km²</div>`)[0];
+                popup_d30b282e28b7173e38c3d858ddf7d538.setContent(html_ab1dd5b9e220c4a4ddd1591d37d4371a);
+            
+        
+
+        circle_marker_b8b3ec7ddc6f7a3d4a8a20299b8fbcc1.bindPopup(popup_d30b282e28b7173e38c3d858ddf7d538)
+        ;
+
+        
+    
+    
+            var circle_marker_959adb91224495fa67bad15725e44125 = L.circleMarker(
+                [28.1667, 84.25],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_bccb632af71f20c42fb80aab2dcceaf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_080be109538d0912abd46f7627947bb9 = $(`<div id="html_080be109538d0912abd46f7627947bb9" style="width: 100.0%; height: 100.0%;">Nepal - 215.5325 persone/km²</div>`)[0];
+                popup_bccb632af71f20c42fb80aab2dcceaf5.setContent(html_080be109538d0912abd46f7627947bb9);
+            
+        
+
+        circle_marker_959adb91224495fa67bad15725e44125.bindPopup(popup_bccb632af71f20c42fb80aab2dcceaf5)
+        ;
+
+        
+    
+    
+            var circle_marker_2151178005270d22a269caacefbfc748 = L.circleMarker(
+                [-18.7669, 46.8691],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_024bec918b5cf40e69b78d3621766770 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0473574749e71ee991401a6533e9815 = $(`<div id="html_d0473574749e71ee991401a6533e9815" style="width: 100.0%; height: 100.0%;">Madagascar - 52.124 persone/km²</div>`)[0];
+                popup_024bec918b5cf40e69b78d3621766770.setContent(html_d0473574749e71ee991401a6533e9815);
+            
+        
+
+        circle_marker_2151178005270d22a269caacefbfc748.bindPopup(popup_024bec918b5cf40e69b78d3621766770)
+        ;
+
+        
+    
+    
+            var circle_marker_033c2d29a47b2de9a15ad45f81765ed1 = L.circleMarker(
+                [6.4238, -66.5897],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_fa9956bd6b5f713554de6d96b58e88ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc1815d858c3b3593789626c704ed6d3 = $(`<div id="html_cc1815d858c3b3593789626c704ed6d3" style="width: 100.0%; height: 100.0%;">Venezuela - 32.6949 persone/km²</div>`)[0];
+                popup_fa9956bd6b5f713554de6d96b58e88ed.setContent(html_cc1815d858c3b3593789626c704ed6d3);
+            
+        
+
+        circle_marker_033c2d29a47b2de9a15ad45f81765ed1.bindPopup(popup_fa9956bd6b5f713554de6d96b58e88ed)
+        ;
+
+        
+    
+    
+            var circle_marker_0deadd700e524fd8ac633ebf5332f01a = L.circleMarker(
+                [3.848, 11.5021],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_4c998b2f785ddda0c9fbb1f6a0ee3834 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_173e976aea3e913f4c538911c15bf49b = $(`<div id="html_173e976aea3e913f4c538911c15bf49b" style="width: 100.0%; height: 100.0%;">Cameroon - 60.6023 persone/km²</div>`)[0];
+                popup_4c998b2f785ddda0c9fbb1f6a0ee3834.setContent(html_173e976aea3e913f4c538911c15bf49b);
+            
+        
+
+        circle_marker_0deadd700e524fd8ac633ebf5332f01a.bindPopup(popup_4c998b2f785ddda0c9fbb1f6a0ee3834)
+        ;
+
+        
+    
+    
+            var circle_marker_12c0bb70cfc323d4d10bd9fb3c0faaa3 = L.circleMarker(
+                [17.6078, 8.0817],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_b829822b8aa88255838440a329b3e525 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71552188bc6500acd2fe2c6054ebff8c = $(`<div id="html_71552188bc6500acd2fe2c6054ebff8c" style="width: 100.0%; height: 100.0%;">Niger - 21.4754 persone/km²</div>`)[0];
+                popup_b829822b8aa88255838440a329b3e525.setContent(html_71552188bc6500acd2fe2c6054ebff8c);
+            
+        
+
+        circle_marker_12c0bb70cfc323d4d10bd9fb3c0faaa3.bindPopup(popup_b829822b8aa88255838440a329b3e525)
+        ;
+
+        
+    
+    
+            var circle_marker_66d8abad678d24b6bbddc04edf3a4a9f = L.circleMarker(
+                [-25.2744, 133.7751],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_b1298dadb65dc61cdddcfd826dd4b798 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32d120991db92702fb80df290c6415b6 = $(`<div id="html_32d120991db92702fb80df290c6415b6" style="width: 100.0%; height: 100.0%;">Australia - 3.4372 persone/km²</div>`)[0];
+                popup_b1298dadb65dc61cdddcfd826dd4b798.setContent(html_32d120991db92702fb80df290c6415b6);
+            
+        
+
+        circle_marker_66d8abad678d24b6bbddc04edf3a4a9f.bindPopup(popup_b1298dadb65dc61cdddcfd826dd4b798)
+        ;
+
+        
+    
+    
+            var circle_marker_bf435019cadc5b0d76d3a6c792156591 = L.circleMarker(
+                [23.6978, 120.9605],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_b35b61648068de891bd5fa94e2ae999d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_abeca0d34bf360fdce15ab78d9632670 = $(`<div id="html_abeca0d34bf360fdce15ab78d9632670" style="width: 100.0%; height: 100.0%;">Taiwan - 660.9188 persone/km²</div>`)[0];
+                popup_b35b61648068de891bd5fa94e2ae999d.setContent(html_abeca0d34bf360fdce15ab78d9632670);
+            
+        
+
+        circle_marker_bf435019cadc5b0d76d3a6c792156591.bindPopup(popup_b35b61648068de891bd5fa94e2ae999d)
+        ;
+
+        
+    
+    
+            var circle_marker_51847d32c4a9ce760f719c93d558face = L.circleMarker(
+                [17.5707, -3.9962],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_650fdd12915b5df44ed67369592e2842 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9bc508c84d0e9df96c37c12d8350550 = $(`<div id="html_f9bc508c84d0e9df96c37c12d8350550" style="width: 100.0%; height: 100.0%;">Mali - 19.0902 persone/km²</div>`)[0];
+                popup_650fdd12915b5df44ed67369592e2842.setContent(html_f9bc508c84d0e9df96c37c12d8350550);
+            
+        
+
+        circle_marker_51847d32c4a9ce760f719c93d558face.bindPopup(popup_650fdd12915b5df44ed67369592e2842)
+        ;
+
+        
+    
+    
+            var circle_marker_01647b58cebd609529efe70fab172403 = L.circleMarker(
+                [12.2383, -1.5616],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_1fab56c7096405666abb77e4bb9a3797 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2af140e617aa00cd6b575adb71871163 = $(`<div id="html_2af140e617aa00cd6b575adb71871163" style="width: 100.0%; height: 100.0%;">Burkina Faso - 84.9835 persone/km²</div>`)[0];
+                popup_1fab56c7096405666abb77e4bb9a3797.setContent(html_2af140e617aa00cd6b575adb71871163);
+            
+        
+
+        circle_marker_01647b58cebd609529efe70fab172403.bindPopup(popup_1fab56c7096405666abb77e4bb9a3797)
+        ;
+
+        
+    
+    
+            var circle_marker_80078cafa984ec33324826d557423879 = L.circleMarker(
+                [34.8021, 38.9968],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_c441a1f4fdefd0408e43039d0d78e84d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be345f469403814204d9dc0007a043e1 = $(`<div id="html_be345f469403814204d9dc0007a043e1" style="width: 100.0%; height: 100.0%;">Syria - 126.4881 persone/km²</div>`)[0];
+                popup_c441a1f4fdefd0408e43039d0d78e84d.setContent(html_be345f469403814204d9dc0007a043e1);
+            
+        
+
+        circle_marker_80078cafa984ec33324826d557423879.bindPopup(popup_c441a1f4fdefd0408e43039d0d78e84d)
+        ;
+
+        
+    
+    
+            var circle_marker_2fc20bc344b99f4498e6678a91e31894 = L.circleMarker(
+                [7.8731, 80.7718],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_d8e3d0b76a006c79e6c2b5643d394067 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9087fa4a36ba82da6362ed3433a093f = $(`<div id="html_b9087fa4a36ba82da6362ed3433a093f" style="width: 100.0%; height: 100.0%;">Sri Lanka - 353.9214 persone/km²</div>`)[0];
+                popup_d8e3d0b76a006c79e6c2b5643d394067.setContent(html_b9087fa4a36ba82da6362ed3433a093f);
+            
+        
+
+        circle_marker_2fc20bc344b99f4498e6678a91e31894.bindPopup(popup_d8e3d0b76a006c79e6c2b5643d394067)
+        ;
+
+        
+    
+    
+            var circle_marker_c290809d86bac0edc5c1b04ed80763f4 = L.circleMarker(
+                [-13.2543, 34.3015],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_48d83850fff53320379e246735f9484b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21478ff449f55eead5d79a8fb5107d8f = $(`<div id="html_21478ff449f55eead5d79a8fb5107d8f" style="width: 100.0%; height: 100.0%;">Malawi - 222.0169 persone/km²</div>`)[0];
+                popup_48d83850fff53320379e246735f9484b.setContent(html_21478ff449f55eead5d79a8fb5107d8f);
+            
+        
+
+        circle_marker_c290809d86bac0edc5c1b04ed80763f4.bindPopup(popup_48d83850fff53320379e246735f9484b)
+        ;
+
+        
+    
+    
+            var circle_marker_444b03a5b8988f048bc75aa2aed4c099 = L.circleMarker(
+                [-13.1339, 27.8493],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_3d02675accc3e0206643dabb244e4ab2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f6bc66159569a21350ecb31bece3e97 = $(`<div id="html_0f6bc66159569a21350ecb31bece3e97" style="width: 100.0%; height: 100.0%;">Zambia - 27.6702 persone/km²</div>`)[0];
+                popup_3d02675accc3e0206643dabb244e4ab2.setContent(html_0f6bc66159569a21350ecb31bece3e97);
+            
+        
+
+        circle_marker_444b03a5b8988f048bc75aa2aed4c099.bindPopup(popup_3d02675accc3e0206643dabb244e4ab2)
+        ;
+
+        
+    
+    
+            var circle_marker_10cc263d0fb114b6d75bdf1498a49800 = L.circleMarker(
+                [45.9432, 24.9668],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_7435075a6f33331f8b9520b73a360efa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d08c273e1804b6b0ccc694f19275fba = $(`<div id="html_8d08c273e1804b6b0ccc694f19275fba" style="width: 100.0%; height: 100.0%;">Romania - 86.4604 persone/km²</div>`)[0];
+                popup_7435075a6f33331f8b9520b73a360efa.setContent(html_8d08c273e1804b6b0ccc694f19275fba);
+            
+        
+
+        circle_marker_10cc263d0fb114b6d75bdf1498a49800.bindPopup(popup_7435075a6f33331f8b9520b73a360efa)
+        ;
+
+        
+    
+    
+            var circle_marker_c2f159c46ee617f50740fb1b8429d053 = L.circleMarker(
+                [-35.6751, -71.543],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_88876375847b6e7cdee92b776694cdce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2aac648326f1b8bc55fe59768b7f0372 = $(`<div id="html_2aac648326f1b8bc55fe59768b7f0372" style="width: 100.0%; height: 100.0%;">Chile - 26.4005 persone/km²</div>`)[0];
+                popup_88876375847b6e7cdee92b776694cdce.setContent(html_2aac648326f1b8bc55fe59768b7f0372);
+            
+        
+
+        circle_marker_c2f159c46ee617f50740fb1b8429d053.bindPopup(popup_88876375847b6e7cdee92b776694cdce)
+        ;
+
+        
+    
+    
+            var circle_marker_ee9385c5fb6fde66b63cbb577ef1360c = L.circleMarker(
+                [48.0196, 66.9237],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_db012d60fc5d5d1bc01ba08cbad53d32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08b338a7f2e1a4e6af3a52ae47f3ccd2 = $(`<div id="html_08b338a7f2e1a4e6af3a52ae47f3ccd2" style="width: 100.0%; height: 100.0%;">Kazakhstan - 7.2625 persone/km²</div>`)[0];
+                popup_db012d60fc5d5d1bc01ba08cbad53d32.setContent(html_08b338a7f2e1a4e6af3a52ae47f3ccd2);
+            
+        
+
+        circle_marker_ee9385c5fb6fde66b63cbb577ef1360c.bindPopup(popup_db012d60fc5d5d1bc01ba08cbad53d32)
+        ;
+
+        
+    
+    
+            var circle_marker_c15ea75c0b370f8562dfe9b8e66b47ec = L.circleMarker(
+                [15.4542, 18.7322],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_7d281244e2466a948685ac6851705e44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f673eb701f06b9e9f404540d458a80af = $(`<div id="html_f673eb701f06b9e9f404540d458a80af" style="width: 100.0%; height: 100.0%;">Chad - 14.516 persone/km²</div>`)[0];
+                popup_7d281244e2466a948685ac6851705e44.setContent(html_f673eb701f06b9e9f404540d458a80af);
+            
+        
+
+        circle_marker_c15ea75c0b370f8562dfe9b8e66b47ec.bindPopup(popup_7d281244e2466a948685ac6851705e44)
+        ;
+
+        
+    
+    
+            var circle_marker_5d419528a51b92439189de93eb063ae3 = L.circleMarker(
+                [-1.8312, -78.1834],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_c45acdd69bb5e2483a868a1815775352 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3268dd64ec8fb9cb9080682add747aa9 = $(`<div id="html_3268dd64ec8fb9cb9080682add747aa9" style="width: 100.0%; height: 100.0%;">Ecuador - 73.2424 persone/km²</div>`)[0];
+                popup_c45acdd69bb5e2483a868a1815775352.setContent(html_3268dd64ec8fb9cb9080682add747aa9);
+            
+        
+
+        circle_marker_5d419528a51b92439189de93eb063ae3.bindPopup(popup_c45acdd69bb5e2483a868a1815775352)
+        ;
+
+        
+    
+    
+            var circle_marker_242287088c67d5db9d2368c44b44f058 = L.circleMarker(
+                [5.1521, 46.1996],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_e74f7169f1d64435dac6564884618b71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60a2d837ab0864e5a1e86f59ae924833 = $(`<div id="html_60a2d837ab0864e5a1e86f59ae924833" style="width: 100.0%; height: 100.0%;">Somalia - 28.9211 persone/km²</div>`)[0];
+                popup_e74f7169f1d64435dac6564884618b71.setContent(html_60a2d837ab0864e5a1e86f59ae924833);
+            
+        
+
+        circle_marker_242287088c67d5db9d2368c44b44f058.bindPopup(popup_e74f7169f1d64435dac6564884618b71)
+        ;
+
+        
+    
+    
+            var circle_marker_cb993c8706e014065248cbadfd7e2da1 = L.circleMarker(
+                [15.7835, -90.2308],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_3b73a427ae414a1ffec642d8b864e2b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d32bc13f0eff64506856abfe389031fa = $(`<div id="html_d32bc13f0eff64506856abfe389031fa" style="width: 100.0%; height: 100.0%;">Guatemala - 168.8319 persone/km²</div>`)[0];
+                popup_3b73a427ae414a1ffec642d8b864e2b3.setContent(html_d32bc13f0eff64506856abfe389031fa);
+            
+        
+
+        circle_marker_cb993c8706e014065248cbadfd7e2da1.bindPopup(popup_3b73a427ae414a1ffec642d8b864e2b3)
+        ;
+
+        
+    
+    
+            var circle_marker_fb632ec76fc74cd70a14290de37bb6f1 = L.circleMarker(
+                [14.6928, -14.0079],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_3fc09fd132c4ab081725bf45bbb9f13d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b21c45de81b1c3f1a219e0f88f00d1e7 = $(`<div id="html_b21c45de81b1c3f1a219e0f88f00d1e7" style="width: 100.0%; height: 100.0%;">Senegal - 92.2618 persone/km²</div>`)[0];
+                popup_3fc09fd132c4ab081725bf45bbb9f13d.setContent(html_b21c45de81b1c3f1a219e0f88f00d1e7);
+            
+        
+
+        circle_marker_fb632ec76fc74cd70a14290de37bb6f1.bindPopup(popup_3fc09fd132c4ab081725bf45bbb9f13d)
+        ;
+
+        
+    
+    
+            var circle_marker_238f7e45953e0b345281694fbfae3697 = L.circleMarker(
+                [52.1326, 5.2913],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_3013a67dd360f4439eb93eb9a2ede059 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_034178259688901483bbf4c1ac260107 = $(`<div id="html_034178259688901483bbf4c1ac260107" style="width: 100.0%; height: 100.0%;">Netherlands - 523.264 persone/km²</div>`)[0];
+                popup_3013a67dd360f4439eb93eb9a2ede059.setContent(html_034178259688901483bbf4c1ac260107);
+            
+        
+
+        circle_marker_238f7e45953e0b345281694fbfae3697.bindPopup(popup_3013a67dd360f4439eb93eb9a2ede059)
+        ;
+
+        
+    
+    
+            var circle_marker_7c6ce860a7eeee7045ff7a6f623434fb = L.circleMarker(
+                [12.5657, 104.991],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_49f1ee5ca47eafc3a30d41a25430d714 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ea7f1f77970892a1686891a5f772753 = $(`<div id="html_1ea7f1f77970892a1686891a5f772753" style="width: 100.0%; height: 100.0%;">Cambodia - 95.9938 persone/km²</div>`)[0];
+                popup_49f1ee5ca47eafc3a30d41a25430d714.setContent(html_1ea7f1f77970892a1686891a5f772753);
+            
+        
+
+        circle_marker_7c6ce860a7eeee7045ff7a6f623434fb.bindPopup(popup_49f1ee5ca47eafc3a30d41a25430d714)
+        ;
+
+        
+    
+    
+            var circle_marker_a975bc837856ec11d29a7b491c884e8d = L.circleMarker(
+                [-19.0154, 29.1549],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_af8812360b3b96506fbe10cfeb98b89e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47f85b43a8e6be3240f966094769709e = $(`<div id="html_47f85b43a8e6be3240f966094769709e" style="width: 100.0%; height: 100.0%;">Zimbabwe - 43.0798 persone/km²</div>`)[0];
+                popup_af8812360b3b96506fbe10cfeb98b89e.setContent(html_47f85b43a8e6be3240f966094769709e);
+            
+        
+
+        circle_marker_a975bc837856ec11d29a7b491c884e8d.bindPopup(popup_af8812360b3b96506fbe10cfeb98b89e)
+        ;
+
+        
+    
+    
+            var circle_marker_ac0da0c49f7bf1b440b2e9a2e2ef89e5 = L.circleMarker(
+                [9.9456, -9.6966],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_02d781ee448625a9b7019e17f8f3f7d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdba67657453774eae849bd1ac9fd0e4 = $(`<div id="html_cdba67657453774eae849bd1ac9fd0e4" style="width: 100.0%; height: 100.0%;">Guinea - 57.7511 persone/km²</div>`)[0];
+                popup_02d781ee448625a9b7019e17f8f3f7d8.setContent(html_cdba67657453774eae849bd1ac9fd0e4);
+            
+        
+
+        circle_marker_ac0da0c49f7bf1b440b2e9a2e2ef89e5.bindPopup(popup_02d781ee448625a9b7019e17f8f3f7d8)
+        ;
+
+        
+    
+    
+            var circle_marker_48b09e14085a52733e853873b9f33094 = L.circleMarker(
+                [-1.9403, 29.8739],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_ac13383968beaca8001c8b09a90d3f6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44dbde76b850d61c474515c095cb16b1 = $(`<div id="html_44dbde76b850d61c474515c095cb16b1" style="width: 100.0%; height: 100.0%;">Rwanda - 571.3289 persone/km²</div>`)[0];
+                popup_ac13383968beaca8001c8b09a90d3f6c.setContent(html_44dbde76b850d61c474515c095cb16b1);
+            
+        
+
+        circle_marker_48b09e14085a52733e853873b9f33094.bindPopup(popup_ac13383968beaca8001c8b09a90d3f6c)
+        ;
+
+        
+    
+    
+            var circle_marker_6e7ec0d8c6fae6b15383baed4730ea31 = L.circleMarker(
+                [9.3075, 2.3158],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_0aa8847b97e6fb0657fb38bd6dc0dc3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23023416c219cd7c5c66a1f91bda3bc2 = $(`<div id="html_23023416c219cd7c5c66a1f91bda3bc2" style="width: 100.0%; height: 100.0%;">Benin - 121.6107 persone/km²</div>`)[0];
+                popup_0aa8847b97e6fb0657fb38bd6dc0dc3d.setContent(html_23023416c219cd7c5c66a1f91bda3bc2);
+            
+        
+
+        circle_marker_6e7ec0d8c6fae6b15383baed4730ea31.bindPopup(popup_0aa8847b97e6fb0657fb38bd6dc0dc3d)
+        ;
+
+        
+    
+    
+            var circle_marker_58cccae7f68929780f83d2430b98e279 = L.circleMarker(
+                [-3.3731, 29.9189],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_93d2bc95118d53f4183ad5b6eb26b8c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94e423404d2b32ae46440be42db5286e = $(`<div id="html_94e423404d2b32ae46440be42db5286e" style="width: 100.0%; height: 100.0%;">Burundi - 515.5202 persone/km²</div>`)[0];
+                popup_93d2bc95118d53f4183ad5b6eb26b8c9.setContent(html_94e423404d2b32ae46440be42db5286e);
+            
+        
+
+        circle_marker_58cccae7f68929780f83d2430b98e279.bindPopup(popup_93d2bc95118d53f4183ad5b6eb26b8c9)
+        ;
+
+        
+    
+    
+            var circle_marker_b537410a712998bf2900ac8c0cdaa1c7 = L.circleMarker(
+                [33.8869, 9.5375],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_4729dddcb478095a254d908398f2f9ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d41b2d862151edb00bf1538c8e45fbe = $(`<div id="html_5d41b2d862151edb00bf1538c8e45fbe" style="width: 100.0%; height: 100.0%;">Tunisia - 80.1894 persone/km²</div>`)[0];
+                popup_4729dddcb478095a254d908398f2f9ea.setContent(html_5d41b2d862151edb00bf1538c8e45fbe);
+            
+        
+
+        circle_marker_b537410a712998bf2900ac8c0cdaa1c7.bindPopup(popup_4729dddcb478095a254d908398f2f9ea)
+        ;
+
+        
+    
+    
+            var circle_marker_0dc977bbced14e694d5e555c1544a0bb = L.circleMarker(
+                [-16.2902, -63.5887],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_11eae8c376d9afb249cf3ef76c36e508 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9742ec710e599982705bcaeec4898c4a = $(`<div id="html_9742ec710e599982705bcaeec4898c4a" style="width: 100.0%; height: 100.0%;">Bolivia - 11.436 persone/km²</div>`)[0];
+                popup_11eae8c376d9afb249cf3ef76c36e508.setContent(html_9742ec710e599982705bcaeec4898c4a);
+            
+        
+
+        circle_marker_0dc977bbced14e694d5e555c1544a0bb.bindPopup(popup_11eae8c376d9afb249cf3ef76c36e508)
+        ;
+
+        
+    
+    
+            var circle_marker_8201d07d5fdfe70d1c3e8a51205889a4 = L.circleMarker(
+                [18.9712, -72.2852],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_52e636f3ac8ddbe0b5ac206d70479cc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33b1cf6ccc05c24714ad0a8357b72993 = $(`<div id="html_33b1cf6ccc05c24714ad0a8357b72993" style="width: 100.0%; height: 100.0%;">Haiti - 425.4268 persone/km²</div>`)[0];
+                popup_52e636f3ac8ddbe0b5ac206d70479cc5.setContent(html_33b1cf6ccc05c24714ad0a8357b72993);
+            
+        
+
+        circle_marker_8201d07d5fdfe70d1c3e8a51205889a4.bindPopup(popup_52e636f3ac8ddbe0b5ac206d70479cc5)
+        ;
+
+        
+    
+    
+            var circle_marker_3aa0041042b794356dfd2f807892756a = L.circleMarker(
+                [50.8503, 4.3517],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_d6828d00a6ecdc459e60b929cdf38039 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87c486993e2a6c2c91d688c9997ee901 = $(`<div id="html_87c486993e2a6c2c91d688c9997ee901" style="width: 100.0%; height: 100.0%;">Belgium - 385.9359 persone/km²</div>`)[0];
+                popup_d6828d00a6ecdc459e60b929cdf38039.setContent(html_87c486993e2a6c2c91d688c9997ee901);
+            
+        
+
+        circle_marker_3aa0041042b794356dfd2f807892756a.bindPopup(popup_d6828d00a6ecdc459e60b929cdf38039)
+        ;
+
+        
+    
+    
+            var circle_marker_7dfad309348fa924456a006f6b486961 = L.circleMarker(
+                [30.5852, 36.2384],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_c61a96d144f2ffc0e76c3c9a6eb082d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce6377439788020dbf0762122ed530a7 = $(`<div id="html_ce6377439788020dbf0762122ed530a7" style="width: 100.0%; height: 100.0%;">Jordan - 127.6781 persone/km²</div>`)[0];
+                popup_c61a96d144f2ffc0e76c3c9a6eb082d1.setContent(html_ce6377439788020dbf0762122ed530a7);
+            
+        
+
+        circle_marker_7dfad309348fa924456a006f6b486961.bindPopup(popup_c61a96d144f2ffc0e76c3c9a6eb082d1)
+        ;
+
+        
+    
+    
+            var circle_marker_8f45e0ac8aca7cc9ec2b2876628bdad4 = L.circleMarker(
+                [18.7357, -70.1627],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_34919ea0b6994dcb01183c02690c981a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2499a8efeeab7c3f33dd9710bb8d410 = $(`<div id="html_d2499a8efeeab7c3f33dd9710bb8d410" style="width: 100.0%; height: 100.0%;">Dominican Republic - 234.5885 persone/km²</div>`)[0];
+                popup_34919ea0b6994dcb01183c02690c981a.setContent(html_d2499a8efeeab7c3f33dd9710bb8d410);
+            
+        
+
+        circle_marker_8f45e0ac8aca7cc9ec2b2876628bdad4.bindPopup(popup_34919ea0b6994dcb01183c02690c981a)
+        ;
+
+        
+    
+    
+            var circle_marker_2e1c749e517a23b300fd9a4efca98c8d = L.circleMarker(
+                [21.5218, -77.7812],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_6977e98c47ad36cef6a7a9df27fe9342 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_836821b7e72f67acddb62c797406b2a5 = $(`<div id="html_836821b7e72f67acddb62c797406b2a5" style="width: 100.0%; height: 100.0%;">Cuba - 107.8463 persone/km²</div>`)[0];
+                popup_6977e98c47ad36cef6a7a9df27fe9342.setContent(html_836821b7e72f67acddb62c797406b2a5);
+            
+        
+
+        circle_marker_2e1c749e517a23b300fd9a4efca98c8d.bindPopup(popup_6977e98c47ad36cef6a7a9df27fe9342)
+        ;
+
+        
+    
+    
+            var circle_marker_2617df75feaf8621df3e558516a934de = L.circleMarker(
+                [6.8777, 31.3069],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_d92c9422ecdf1fcd00cdfb8146867420 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_532478e31b95fece2d79bd84d17793f2 = $(`<div id="html_532478e31b95fece2d79bd84d17793f2" style="width: 100.0%; height: 100.0%;">South Sudan - 17.5475 persone/km²</div>`)[0];
+                popup_d92c9422ecdf1fcd00cdfb8146867420.setContent(html_532478e31b95fece2d79bd84d17793f2);
+            
+        
+
+        circle_marker_2617df75feaf8621df3e558516a934de.bindPopup(popup_d92c9422ecdf1fcd00cdfb8146867420)
+        ;
+
+        
+    
+    
+            var circle_marker_9698f17571dd4e56be14c05cd1f6861f = L.circleMarker(
+                [60.1282, 18.6435],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_9701cd7522669e198cd41c826814df38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5883051b3491429dd56739568a83aaac = $(`<div id="html_5883051b3491429dd56739568a83aaac" style="width: 100.0%; height: 100.0%;">Sweden - 26.0558 persone/km²</div>`)[0];
+                popup_9701cd7522669e198cd41c826814df38.setContent(html_5883051b3491429dd56739568a83aaac);
+            
+        
+
+        circle_marker_9698f17571dd4e56be14c05cd1f6861f.bindPopup(popup_9701cd7522669e198cd41c826814df38)
+        ;
+
+        
+    
+    
+            var circle_marker_4cf9b47cd581d65a7e704e73458c2484 = L.circleMarker(
+                [13.9094, -83.4339],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_44739cc7930b77531d9f4656dd3566a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a44aee682a5f1c35e5827eae56bf809e = $(`<div id="html_a44aee682a5f1c35e5827eae56bf809e" style="width: 100.0%; height: 100.0%;">Honduras - 94.6805 persone/km²</div>`)[0];
+                popup_44739cc7930b77531d9f4656dd3566a6.setContent(html_a44aee682a5f1c35e5827eae56bf809e);
+            
+        
+
+        circle_marker_4cf9b47cd581d65a7e704e73458c2484.bindPopup(popup_44739cc7930b77531d9f4656dd3566a6)
+        ;
+
+        
+    
+    
+            var circle_marker_b3af6262f1e3ac67fb1f2ddd5e99c589 = L.circleMarker(
+                [40.1431, 47.5769],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_76841456939b36f2abe487792c5b6ba9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_483c762a5e0e8c2825d529a3f24b7357 = $(`<div id="html_483c762a5e0e8c2825d529a3f24b7357" style="width: 100.0%; height: 100.0%;">Azerbaijan - 125.991 persone/km²</div>`)[0];
+                popup_76841456939b36f2abe487792c5b6ba9.setContent(html_483c762a5e0e8c2825d529a3f24b7357);
+            
+        
+
+        circle_marker_b3af6262f1e3ac67fb1f2ddd5e99c589.bindPopup(popup_76841456939b36f2abe487792c5b6ba9)
+        ;
+
+        
+    
+    
+            var circle_marker_d64fa538f9d27bd6a7ccffd89d9bb626 = L.circleMarker(
+                [39.0742, 21.8243],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_b90fca71b4f4110087c498a084f0cb4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1543694414c0b3db360a996210fd0d49 = $(`<div id="html_1543694414c0b3db360a996210fd0d49" style="width: 100.0%; height: 100.0%;">Greece - 80.2271 persone/km²</div>`)[0];
+                popup_b90fca71b4f4110087c498a084f0cb4a.setContent(html_1543694414c0b3db360a996210fd0d49);
+            
+        
+
+        circle_marker_d64fa538f9d27bd6a7ccffd89d9bb626.bindPopup(popup_b90fca71b4f4110087c498a084f0cb4a)
+        ;
+
+        
+    
+    
+            var circle_marker_a191fea6c03c7d5e50cc3c1db6be4202 = L.circleMarker(
+                [-6.3149, 143.9555],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_1c67f2a2211957d57157be0a52cb83c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac50d0a88c1d48037d54458a3b90d376 = $(`<div id="html_ac50d0a88c1d48037d54458a3b90d376" style="width: 100.0%; height: 100.0%;">Papua New Guinea - 22.8104 persone/km²</div>`)[0];
+                popup_1c67f2a2211957d57157be0a52cb83c0.setContent(html_ac50d0a88c1d48037d54458a3b90d376);
+            
+        
+
+        circle_marker_a191fea6c03c7d5e50cc3c1db6be4202.bindPopup(popup_1c67f2a2211957d57157be0a52cb83c0)
+        ;
+
+        
+    
+    
+            var circle_marker_3b7f4cce0f5e721925eb15560563d6e5 = L.circleMarker(
+                [39.3999, -8.2245],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_35195f95310b5bbaaed7b8e2114c155a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b04d2d8ca95780228a365da70403205 = $(`<div id="html_9b04d2d8ca95780228a365da70403205" style="width: 100.0%; height: 100.0%;">Portugal - 111.8666 persone/km²</div>`)[0];
+                popup_35195f95310b5bbaaed7b8e2114c155a.setContent(html_9b04d2d8ca95780228a365da70403205);
+            
+        
+
+        circle_marker_3b7f4cce0f5e721925eb15560563d6e5.bindPopup(popup_35195f95310b5bbaaed7b8e2114c155a)
+        ;
+
+        
+    
+    
+            var circle_marker_7cefb1920dd355c2dba2bf5d6cc0ccb0 = L.circleMarker(
+                [47.1625, 19.5033],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_ef7fb328f8f5b4acef6615056772f3a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d109ca8597e67cf369baef7e12cbf33b = $(`<div id="html_d109ca8597e67cf369baef7e12cbf33b" style="width: 100.0%; height: 100.0%;">Hungary - 111.2891 persone/km²</div>`)[0];
+                popup_ef7fb328f8f5b4acef6615056772f3a5.setContent(html_d109ca8597e67cf369baef7e12cbf33b);
+            
+        
+
+        circle_marker_7cefb1920dd355c2dba2bf5d6cc0ccb0.bindPopup(popup_ef7fb328f8f5b4acef6615056772f3a5)
+        ;
+
+        
+    
+    
+            var circle_marker_abcae589d0336c0d83933cb89a7d2c37 = L.circleMarker(
+                [38.861, 71.2761],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_39233d299521b0e3076ff56154447907 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0699b1bea81a2cf15078f6770f8b5d88 = $(`<div id="html_0699b1bea81a2cf15078f6770f8b5d88" style="width: 100.0%; height: 100.0%;">Tajikistan - 73.0855 persone/km²</div>`)[0];
+                popup_39233d299521b0e3076ff56154447907.setContent(html_0699b1bea81a2cf15078f6770f8b5d88);
+            
+        
+
+        circle_marker_abcae589d0336c0d83933cb89a7d2c37.bindPopup(popup_39233d299521b0e3076ff56154447907)
+        ;
+
+        
+    
+    
+            var circle_marker_a1a0daa808ba17bc74d57057e4f86621 = L.circleMarker(
+                [23.4241, 53.8478],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_155e07fc01f787b5414b9dc42b4fc38d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_571ce8cad31b1578a924ac4f638a0d6a = $(`<div id="html_571ce8cad31b1578a924ac4f638a0d6a" style="width: 100.0%; height: 100.0%;">United Arab Emirates - 134.0027 persone/km²</div>`)[0];
+                popup_155e07fc01f787b5414b9dc42b4fc38d.setContent(html_571ce8cad31b1578a924ac4f638a0d6a);
+            
+        
+
+        circle_marker_a1a0daa808ba17bc74d57057e4f86621.bindPopup(popup_155e07fc01f787b5414b9dc42b4fc38d)
+        ;
+
+        
+    
+    
+            var circle_marker_420c002da6ec416aa1d7d8ecb8ed8ea5 = L.circleMarker(
+                [53.9, 27.5667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_2c9759f51acda38fc4065d9291be84e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecc751b7398ce8abbc16cd697bb95539 = $(`<div id="html_ecc751b7398ce8abbc16cd697bb95539" style="width: 100.0%; height: 100.0%;">Belarus - 46.794 persone/km²</div>`)[0];
+                popup_2c9759f51acda38fc4065d9291be84e1.setContent(html_ecc751b7398ce8abbc16cd697bb95539);
+            
+        
+
+        circle_marker_420c002da6ec416aa1d7d8ecb8ed8ea5.bindPopup(popup_2c9759f51acda38fc4065d9291be84e1)
+        ;
+
+        
+    
+    
+            var circle_marker_e2b4c2c153b37f6d67b036f5d31db726 = L.circleMarker(
+                [31.0461, 34.8516],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_2fe5e37a3a07c365aa500e738ede2104 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_948cd1297e4548d1ee4f9d26b2c6aaec = $(`<div id="html_948cd1297e4548d1ee4f9d26b2c6aaec" style="width: 100.0%; height: 100.0%;">Israel - 423.9612 persone/km²</div>`)[0];
+                popup_2fe5e37a3a07c365aa500e738ede2104.setContent(html_948cd1297e4548d1ee4f9d26b2c6aaec);
+            
+        
+
+        circle_marker_e2b4c2c153b37f6d67b036f5d31db726.bindPopup(popup_2fe5e37a3a07c365aa500e738ede2104)
+        ;
+
+        
+    
+    
+            var circle_marker_75711e0809ec9e65781dc06852582853 = L.circleMarker(
+                [7.4465, 1.4025],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_ca8a5b20d44639e8ac7d17cb20aefd55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53e500f54922d68269572852422b1d60 = $(`<div id="html_53e500f54922d68269572852422b1d60" style="width: 100.0%; height: 100.0%;">Togo - 166.4607 persone/km²</div>`)[0];
+                popup_ca8a5b20d44639e8ac7d17cb20aefd55.setContent(html_53e500f54922d68269572852422b1d60);
+            
+        
+
+        circle_marker_75711e0809ec9e65781dc06852582853.bindPopup(popup_ca8a5b20d44639e8ac7d17cb20aefd55)
+        ;
+
+        
+    
+    
+            var circle_marker_e38ad4e6b7a40429095df633d256e02b = L.circleMarker(
+                [47.5162, 14.5501],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_f65044195d6bb105a0299c5b7fb7afd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ce23412c243ce260d302300b9d72b9f = $(`<div id="html_0ce23412c243ce260d302300b9d72b9f" style="width: 100.0%; height: 100.0%;">Austria - 108.5671 persone/km²</div>`)[0];
+                popup_f65044195d6bb105a0299c5b7fb7afd9.setContent(html_0ce23412c243ce260d302300b9d72b9f);
+            
+        
+
+        circle_marker_e38ad4e6b7a40429095df633d256e02b.bindPopup(popup_f65044195d6bb105a0299c5b7fb7afd9)
+        ;
+
+        
+    
+    
+            var circle_marker_895a486e712a5529aa4d9368db494cf6 = L.circleMarker(
+                [46.8182, 8.2275],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_cb96e6978791cf4d6e2f1e57ba425f0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef829228f7af1c90bc012a33a0f7dfae = $(`<div id="html_ef829228f7af1c90bc012a33a0f7dfae" style="width: 100.0%; height: 100.0%;">Switzerland - 222.6103 persone/km²</div>`)[0];
+                popup_cb96e6978791cf4d6e2f1e57ba425f0d.setContent(html_ef829228f7af1c90bc012a33a0f7dfae);
+            
+        
+
+        circle_marker_895a486e712a5529aa4d9368db494cf6.bindPopup(popup_cb96e6978791cf4d6e2f1e57ba425f0d)
+        ;
+
+        
+    
+    
+            var circle_marker_882a619cd27957484b67700892f95465 = L.circleMarker(
+                [8.4606, -11.7799],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_5072d7de44ff6d46c1d5328be54dd6ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2df0b2f8c7f22e5b0ca805e6b556fe6d = $(`<div id="html_2df0b2f8c7f22e5b0ca805e6b556fe6d" style="width: 100.0%; height: 100.0%;">Sierra Leone - 121.794 persone/km²</div>`)[0];
+                popup_5072d7de44ff6d46c1d5328be54dd6ed.setContent(html_2df0b2f8c7f22e5b0ca805e6b556fe6d);
+            
+        
+
+        circle_marker_882a619cd27957484b67700892f95465.bindPopup(popup_5072d7de44ff6d46c1d5328be54dd6ed)
+        ;
+
+        
+    
+    
+            var circle_marker_b62af2c369b9b0b3348ec98c744d7898 = L.circleMarker(
+                [19.8563, 102.4955],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_ecc70afdaf9b97f87fe73dbb40338e79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9f435ba2bbbe8ad36a68000a63f706f = $(`<div id="html_a9f435ba2bbbe8ad36a68000a63f706f" style="width: 100.0%; height: 100.0%;">Laos - 33.0753 persone/km²</div>`)[0];
+                popup_ecc70afdaf9b97f87fe73dbb40338e79.setContent(html_a9f435ba2bbbe8ad36a68000a63f706f);
+            
+        
+
+        circle_marker_b62af2c369b9b0b3348ec98c744d7898.bindPopup(popup_ecc70afdaf9b97f87fe73dbb40338e79)
+        ;
+
+        
+    
+    
+            var circle_marker_55fbdbc012a2e479c5c109cf5f2eafe1 = L.circleMarker(
+                [44.0165, 21.0059],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_a97d38340dfabd03a58358e240be7a89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73939b2ae433b08b59ca94eb01d65ba6 = $(`<div id="html_73939b2ae433b08b59ca94eb01d65ba6" style="width: 100.0%; height: 100.0%;">Serbia - 81.7411 persone/km²</div>`)[0];
+                popup_a97d38340dfabd03a58358e240be7a89.setContent(html_73939b2ae433b08b59ca94eb01d65ba6);
+            
+        
+
+        circle_marker_55fbdbc012a2e479c5c109cf5f2eafe1.bindPopup(popup_a97d38340dfabd03a58358e240be7a89)
+        ;
+
+        
+    
+    
+            var circle_marker_d14d3811cfedfe31d1d93fd076ca5353 = L.circleMarker(
+                [12.8654, -85.2072],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_fe205b6411f673f9e12b1dc2a62490a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a1e1d9e21dea2fc3588114cc57327c3 = $(`<div id="html_9a1e1d9e21dea2fc3588114cc57327c3" style="width: 100.0%; height: 100.0%;">Nicaragua - 58.5533 persone/km²</div>`)[0];
+                popup_fe205b6411f673f9e12b1dc2a62490a1.setContent(html_9a1e1d9e21dea2fc3588114cc57327c3);
+            
+        
+
+        circle_marker_d14d3811cfedfe31d1d93fd076ca5353.bindPopup(popup_fe205b6411f673f9e12b1dc2a62490a1)
+        ;
+
+        
+    
+    
+            var circle_marker_4eaa816cf7c7e16e6560cf7ebb58b909 = L.circleMarker(
+                [26.3351, 17.2283],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_3207061ff5177e873a709f3c2c0274a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87b8177ffdf9dd6f5c29053b41099089 = $(`<div id="html_87b8177ffdf9dd6f5c29053b41099089" style="width: 100.0%; height: 100.0%;">Libya - 3.9149000000000003 persone/km²</div>`)[0];
+                popup_3207061ff5177e873a709f3c2c0274a2.setContent(html_87b8177ffdf9dd6f5c29053b41099089);
+            
+        
+
+        circle_marker_4eaa816cf7c7e16e6560cf7ebb58b909.bindPopup(popup_3207061ff5177e873a709f3c2c0274a2)
+        ;
+
+        
+    
+    
+            var circle_marker_88600eb3ec04f1274b6d7f33546c5565 = L.circleMarker(
+                [-23.4425, -58.4438],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_135a7390558d328992e2ef159cce58b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a268720301af9a8209ae83c3836d2991 = $(`<div id="html_a268720301af9a8209ae83c3836d2991" style="width: 100.0%; height: 100.0%;">Paraguay - 17.2704 persone/km²</div>`)[0];
+                popup_135a7390558d328992e2ef159cce58b1.setContent(html_a268720301af9a8209ae83c3836d2991);
+            
+        
+
+        circle_marker_88600eb3ec04f1274b6d7f33546c5565.bindPopup(popup_135a7390558d328992e2ef159cce58b1)
+        ;
+
+        
+    
+    
+            var circle_marker_e8be0ac2a60b22b6601e9daf3d038645 = L.circleMarker(
+                [41.2044, 74.7661],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_faf3334433a5961f567ad904d04513c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea000f852ddb466ae17975fb61834232 = $(`<div id="html_ea000f852ddb466ae17975fb61834232" style="width: 100.0%; height: 100.0%;">Kyrgyzstan - 35.1165 persone/km²</div>`)[0];
+                popup_faf3334433a5961f567ad904d04513c7.setContent(html_ea000f852ddb466ae17975fb61834232);
+            
+        
+
+        circle_marker_e8be0ac2a60b22b6601e9daf3d038645.bindPopup(popup_faf3334433a5961f567ad904d04513c7)
+        ;
+
+        
+    
+    
+            var circle_marker_88fcd244d7c28dddf04bb1d152e162cd = L.circleMarker(
+                [42.7339, 25.4858],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_0c222c94843492d5793327f2dbe7fa6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5268a7bdeb07fff3439e7b35e0a3eb1 = $(`<div id="html_c5268a7bdeb07fff3439e7b35e0a3eb1" style="width: 100.0%; height: 100.0%;">Bulgaria - 61.6039 persone/km²</div>`)[0];
+                popup_0c222c94843492d5793327f2dbe7fa6f.setContent(html_c5268a7bdeb07fff3439e7b35e0a3eb1);
+            
+        
+
+        circle_marker_88fcd244d7c28dddf04bb1d152e162cd.bindPopup(popup_0c222c94843492d5793327f2dbe7fa6f)
+        ;
+
+        
+    
+    
+            var circle_marker_5668330a521de57ab9fce2930289caca = L.circleMarker(
+                [38.9697, 59.5563],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_ed41db3f9ccd407943e79bf3374ad736 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32a012760cae17f1af25d1f7e73c4a82 = $(`<div id="html_32a012760cae17f1af25d1f7e73c4a82" style="width: 100.0%; height: 100.0%;">Turkmenistan - 13.8661 persone/km²</div>`)[0];
+                popup_ed41db3f9ccd407943e79bf3374ad736.setContent(html_32a012760cae17f1af25d1f7e73c4a82);
+            
+        
+
+        circle_marker_5668330a521de57ab9fce2930289caca.bindPopup(popup_ed41db3f9ccd407943e79bf3374ad736)
+        ;
+
+        
+    
+    
+            var circle_marker_5974410ffd16f5c5beb27f7eeb239aa4 = L.circleMarker(
+                [13.7942, -88.8965],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_fa1fdb56c9c2883aaa1977afed161984 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c2f06905a7b87ca7dd4eb5ee4bf9da2 = $(`<div id="html_2c2f06905a7b87ca7dd4eb5ee4bf9da2" style="width: 100.0%; height: 100.0%;">El Salvador - 307.1884 persone/km²</div>`)[0];
+                popup_fa1fdb56c9c2883aaa1977afed161984.setContent(html_2c2f06905a7b87ca7dd4eb5ee4bf9da2);
+            
+        
+
+        circle_marker_5974410ffd16f5c5beb27f7eeb239aa4.bindPopup(popup_fa1fdb56c9c2883aaa1977afed161984)
+        ;
+
+        
+    
+    
+            var circle_marker_f03577172623b151a92c23bde359a660 = L.circleMarker(
+                [1.3521, 103.8198],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_f33de331289291ac1b7e7af91415129c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_838ecd4914803094711d041e188af4c3 = $(`<div id="html_838ecd4914803094711d041e188af4c3" style="width: 100.0%; height: 100.0%;">Singapore - 8377.0515 persone/km²</div>`)[0];
+                popup_f33de331289291ac1b7e7af91415129c.setContent(html_838ecd4914803094711d041e188af4c3);
+            
+        
+
+        circle_marker_f03577172623b151a92c23bde359a660.bindPopup(popup_f33de331289291ac1b7e7af91415129c)
+        ;
+
+        
+    
+    
+            var circle_marker_804dc106067c41469b5b4b4f7856e993 = L.circleMarker(
+                [56.2639, 9.5018],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_2989ba3a9a1ca2a4861c738fea7602e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11b75867c480a92a731652f0008a88b1 = $(`<div id="html_11b75867c480a92a731652f0008a88b1" style="width: 100.0%; height: 100.0%;">Denmark - 147.7728 persone/km²</div>`)[0];
+                popup_2989ba3a9a1ca2a4861c738fea7602e4.setContent(html_11b75867c480a92a731652f0008a88b1);
+            
+        
+
+        circle_marker_804dc106067c41469b5b4b4f7856e993.bindPopup(popup_2989ba3a9a1ca2a4861c738fea7602e4)
+        ;
+
+        
+    
+    
+            var circle_marker_3c59a8276691369ebb7ea22c330995e7 = L.circleMarker(
+                [48.669, 19.699],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_b0f2df62992d948e4d35e00bec5fa062 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42f3729197270efe3a932f2d50fee53e = $(`<div id="html_42f3729197270efe3a932f2d50fee53e" style="width: 100.0%; height: 100.0%;">Slovakia - 118.1849 persone/km²</div>`)[0];
+                popup_b0f2df62992d948e4d35e00bec5fa062.setContent(html_42f3729197270efe3a932f2d50fee53e);
+            
+        
+
+        circle_marker_3c59a8276691369ebb7ea22c330995e7.bindPopup(popup_b0f2df62992d948e4d35e00bec5fa062)
+        ;
+
+        
+    
+    
+            var circle_marker_56a91e27a6c4db6207baf314f1fe4b53 = L.circleMarker(
+                [6.6111, 20.9394],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_70afc48c77f0ec035b10bbbe0760e3e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a197378ba30134e5c69042ab99fdc01b = $(`<div id="html_a197378ba30134e5c69042ab99fdc01b" style="width: 100.0%; height: 100.0%;">Central African Republic - 9.2175 persone/km²</div>`)[0];
+                popup_70afc48c77f0ec035b10bbbe0760e3e5.setContent(html_a197378ba30134e5c69042ab99fdc01b);
+            
+        
+
+        circle_marker_56a91e27a6c4db6207baf314f1fe4b53.bindPopup(popup_70afc48c77f0ec035b10bbbe0760e3e5)
+        ;
+
+        
+    
+    
+            var circle_marker_a7780e9688865affac34f5b5c4af2a4e = L.circleMarker(
+                [61.9241, 25.7482],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_6c2968b9e67aa3b678cc57a21d08cb5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e91acf9536721b9b9547f91e3d0c9a01 = $(`<div id="html_e91acf9536721b9b9547f91e3d0c9a01" style="width: 100.0%; height: 100.0%;">Finland - 18.2453 persone/km²</div>`)[0];
+                popup_6c2968b9e67aa3b678cc57a21d08cb5e.setContent(html_e91acf9536721b9b9547f91e3d0c9a01);
+            
+        
+
+        circle_marker_a7780e9688865affac34f5b5c4af2a4e.bindPopup(popup_6c2968b9e67aa3b678cc57a21d08cb5e)
+        ;
+
+        
+    
+    
+            var circle_marker_a3650e76925b062cf5d85519ed2490e6 = L.circleMarker(
+                [60.472, 8.4689],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_87d60cd10ff7b24a797f331cffd7b8f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46462d32eb0a3b12e8dece5cdced111d = $(`<div id="html_46462d32eb0a3b12e8dece5cdced111d" style="width: 100.0%; height: 100.0%;">Norway - 15.0277 persone/km²</div>`)[0];
+                popup_87d60cd10ff7b24a797f331cffd7b8f8.setContent(html_46462d32eb0a3b12e8dece5cdced111d);
+            
+        
+
+        circle_marker_a3650e76925b062cf5d85519ed2490e6.bindPopup(popup_87d60cd10ff7b24a797f331cffd7b8f8)
+        ;
+
+        
+    
+    
+            var circle_marker_f73378498804ade0b5b6ce7d35762cee = L.circleMarker(
+                [9.4295, -9.4295],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_5b7d07c5c9678b874bab8e71e09d85bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b92e98df5726bcf66659ee2b6d8088f = $(`<div id="html_7b92e98df5726bcf66659ee2b6d8088f" style="width: 100.0%; height: 100.0%;">Liberia - 56.2539 persone/km²</div>`)[0];
+                popup_5b7d07c5c9678b874bab8e71e09d85bc.setContent(html_7b92e98df5726bcf66659ee2b6d8088f);
+            
+        
+
+        circle_marker_f73378498804ade0b5b6ce7d35762cee.bindPopup(popup_5b7d07c5c9678b874bab8e71e09d85bc)
+        ;
+
+        
+    
+    
+            var circle_marker_84dd9479d1678d546926ab180a373f2f = L.circleMarker(
+                [33.8547, 35.8623],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_1b1a442c0e15a3c8360000c5c0b1067c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a7bc1f6ae98203f1d29651b1fe5ce19 = $(`<div id="html_1a7bc1f6ae98203f1d29651b1fe5ce19" style="width: 100.0%; height: 100.0%;">Lebanon - 523.3558 persone/km²</div>`)[0];
+                popup_1b1a442c0e15a3c8360000c5c0b1067c.setContent(html_1a7bc1f6ae98203f1d29651b1fe5ce19);
+            
+        
+
+        circle_marker_84dd9479d1678d546926ab180a373f2f.bindPopup(popup_1b1a442c0e15a3c8360000c5c0b1067c)
+        ;
+
+        
+    
+    
+            var circle_marker_c5976d305ae87c438a432fb17916c135 = L.circleMarker(
+                [-40.9006, 174.886],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_e86b307c9a4d53fdb6e926a905f616b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a325c2d6ffb126001f49981cebf299f = $(`<div id="html_0a325c2d6ffb126001f49981cebf299f" style="width: 100.0%; height: 100.0%;">New Zealand - 19.8553 persone/km²</div>`)[0];
+                popup_e86b307c9a4d53fdb6e926a905f616b7.setContent(html_0a325c2d6ffb126001f49981cebf299f);
+            
+        
+
+        circle_marker_c5976d305ae87c438a432fb17916c135.bindPopup(popup_e86b307c9a4d53fdb6e926a905f616b7)
+        ;
+
+        
+    
+    
+            var circle_marker_0b7eef7c70a160b273b48a11889b663e = L.circleMarker(
+                [9.7489, -83.7534],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_c5e3c1cf0c5a3c784daa190c5f5d2bf1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a4138d850a903b0ff0c6d96609757b0 = $(`<div id="html_6a4138d850a903b0ff0c6d96609757b0" style="width: 100.0%; height: 100.0%;">Costa Rica - 102.0794 persone/km²</div>`)[0];
+                popup_c5e3c1cf0c5a3c784daa190c5f5d2bf1.setContent(html_6a4138d850a903b0ff0c6d96609757b0);
+            
+        
+
+        circle_marker_0b7eef7c70a160b273b48a11889b663e.bindPopup(popup_c5e3c1cf0c5a3c784daa190c5f5d2bf1)
+        ;
+
+        
+    
+    
+            var circle_marker_a0106ff98700de591d5a920810c58a78 = L.circleMarker(
+                [53.4129, -8.2439],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_3016d53ed7d3f050014138aecf878aef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fc300f832c8c684b743650ddc93a81b = $(`<div id="html_6fc300f832c8c684b743650ddc93a81b" style="width: 100.0%; height: 100.0%;">Ireland - 73.4059 persone/km²</div>`)[0];
+                popup_3016d53ed7d3f050014138aecf878aef.setContent(html_6fc300f832c8c684b743650ddc93a81b);
+            
+        
+
+        circle_marker_a0106ff98700de591d5a920810c58a78.bindPopup(popup_3016d53ed7d3f050014138aecf878aef)
+        ;
+
+        
+    
+    
+            var circle_marker_1f2c4bbc960a89e16440d56b05999140 = L.circleMarker(
+                [21.0079, -10.94],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_fedbd98585a122d61042bbe84bbb6def = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3a431af0b4427aa10f9bcb808d614ee = $(`<div id="html_c3a431af0b4427aa10f9bcb808d614ee" style="width: 100.0%; height: 100.0%;">Mauritania - 4.7181 persone/km²</div>`)[0];
+                popup_fedbd98585a122d61042bbe84bbb6def.setContent(html_c3a431af0b4427aa10f9bcb808d614ee);
+            
+        
+
+        circle_marker_1f2c4bbc960a89e16440d56b05999140.bindPopup(popup_fedbd98585a122d61042bbe84bbb6def)
+        ;
+
+        
+    
+    
+            var circle_marker_346517810c0c69a362fd1acb28258a48 = L.circleMarker(
+                [21.5126, 55.9232],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_4b0d15b2d4037a3cbb12a2aac4a05540 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9853971ee9f784473c43c970a997d4c = $(`<div id="html_e9853971ee9f784473c43c970a997d4c" style="width: 100.0%; height: 100.0%;">Oman - 15.0061 persone/km²</div>`)[0];
+                popup_4b0d15b2d4037a3cbb12a2aac4a05540.setContent(html_e9853971ee9f784473c43c970a997d4c);
+            
+        
+
+        circle_marker_346517810c0c69a362fd1acb28258a48.bindPopup(popup_4b0d15b2d4037a3cbb12a2aac4a05540)
+        ;
+
+        
+    
+    
+            var circle_marker_17317651a2eff41e8d7e452b7a69ed3b = L.circleMarker(
+                [8.5375, -80.7821],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_6ef39beb85eb4c818a911bf774e5b586 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_358bd7bb2f68073f7473a35534dd9699 = $(`<div id="html_358bd7bb2f68073f7473a35534dd9699" style="width: 100.0%; height: 100.0%;">Panama - 60.233 persone/km²</div>`)[0];
+                popup_6ef39beb85eb4c818a911bf774e5b586.setContent(html_358bd7bb2f68073f7473a35534dd9699);
+            
+        
+
+        circle_marker_17317651a2eff41e8d7e452b7a69ed3b.bindPopup(popup_6ef39beb85eb4c818a911bf774e5b586)
+        ;
+
+        
+    
+    
+            var circle_marker_a83dbf388ef22a220833c71712c949d5 = L.circleMarker(
+                [29.3759, 47.9774],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_b6a59dfa9727f1404155b2f797922c1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_682b168537ee55a4faf71d9123dda9e9 = $(`<div id="html_682b168537ee55a4faf71d9123dda9e9" style="width: 100.0%; height: 100.0%;">Kuwait - 241.8691 persone/km²</div>`)[0];
+                popup_b6a59dfa9727f1404155b2f797922c1d.setContent(html_682b168537ee55a4faf71d9123dda9e9);
+            
+        
+
+        circle_marker_a83dbf388ef22a220833c71712c949d5.bindPopup(popup_b6a59dfa9727f1404155b2f797922c1d)
+        ;
+
+        
+    
+    
+            var circle_marker_747d95038617d91db3f4ee9573616cdc = L.circleMarker(
+                [45.1, 15.2],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_e975090e2d57e2623171a27ee2a22d7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4facae4ab77b1b9a8270466f1645269 = $(`<div id="html_d4facae4ab77b1b9a8270466f1645269" style="width: 100.0%; height: 100.0%;">Croatia - 71.6336 persone/km²</div>`)[0];
+                popup_e975090e2d57e2623171a27ee2a22d7d.setContent(html_d4facae4ab77b1b9a8270466f1645269);
+            
+        
+
+        circle_marker_747d95038617d91db3f4ee9573616cdc.bindPopup(popup_e975090e2d57e2623171a27ee2a22d7d)
+        ;
+
+        
+    
+    
+            var circle_marker_1bb31b4f0371a48af1efcd78394ab4a5 = L.circleMarker(
+                [15.1794, 39.7823],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_998b12adb0717635f93306201d04ee59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74876658ae1c9123b62648c2fc5869df = $(`<div id="html_74876658ae1c9123b62648c2fc5869df" style="width: 100.0%; height: 100.0%;">Eritrea - 30.9722 persone/km²</div>`)[0];
+                popup_998b12adb0717635f93306201d04ee59.setContent(html_74876658ae1c9123b62648c2fc5869df);
+            
+        
+
+        circle_marker_1bb31b4f0371a48af1efcd78394ab4a5.bindPopup(popup_998b12adb0717635f93306201d04ee59)
+        ;
+
+        
+    
+    
+            var circle_marker_9dbcbfb501e8c93f7761f1e1d9d3c3d1 = L.circleMarker(
+                [42.3154, 43.3569],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_d72c04fb47257540351423f06720a8a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2a1bdb203a6b82ec6f4989ce9df87dd = $(`<div id="html_e2a1bdb203a6b82ec6f4989ce9df87dd" style="width: 100.0%; height: 100.0%;">Georgia - 53.6521 persone/km²</div>`)[0];
+                popup_d72c04fb47257540351423f06720a8a5.setContent(html_e2a1bdb203a6b82ec6f4989ce9df87dd);
+            
+        
+
+        circle_marker_9dbcbfb501e8c93f7761f1e1d9d3c3d1.bindPopup(popup_d72c04fb47257540351423f06720a8a5)
+        ;
+
+        
+    
+    
+            var circle_marker_7190482278d1bc92caabb1f28d99c33e = L.circleMarker(
+                [46.8625, 103.8467],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_814c1ebce6cb2724cb5cbb2875dc11dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45d64ea764dbaa289a65095dcb4767c9 = $(`<div id="html_45d64ea764dbaa289a65095dcb4767c9" style="width: 100.0%; height: 100.0%;">Mongolia - 2.2133 persone/km²</div>`)[0];
+                popup_814c1ebce6cb2724cb5cbb2875dc11dc.setContent(html_45d64ea764dbaa289a65095dcb4767c9);
+            
+        
+
+        circle_marker_7190482278d1bc92caabb1f28d99c33e.bindPopup(popup_814c1ebce6cb2724cb5cbb2875dc11dc)
+        ;
+
+        
+    
+    
+            var circle_marker_d4f0d56581e23c9b375c8147c66015c7 = L.circleMarker(
+                [47.4116, 28.3699],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_727aa4c784ecac8a278a47b85fc745e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be2f31243ea9e47e022b115e3abbc4c5 = $(`<div id="html_be2f31243ea9e47e022b115e3abbc4c5" style="width: 100.0%; height: 100.0%;">Moldova - 104.4845 persone/km²</div>`)[0];
+                popup_727aa4c784ecac8a278a47b85fc745e2.setContent(html_be2f31243ea9e47e022b115e3abbc4c5);
+            
+        
+
+        circle_marker_d4f0d56581e23c9b375c8147c66015c7.bindPopup(popup_727aa4c784ecac8a278a47b85fc745e2)
+        ;
+
+        
+    
+    
+            var circle_marker_a16f897e6a9853cdd35fced63fa53433 = L.circleMarker(
+                [-32.9655, -56.0278],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_c7b346077e924bb2c58374f4cdafa525 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b82c6442c45af8811fdc5388d96d88b5 = $(`<div id="html_b82c6442c45af8811fdc5388d96d88b5" style="width: 100.0%; height: 100.0%;">Uruguay - 19.5584 persone/km²</div>`)[0];
+                popup_c7b346077e924bb2c58374f4cdafa525.setContent(html_b82c6442c45af8811fdc5388d96d88b5);
+            
+        
+
+        circle_marker_a16f897e6a9853cdd35fced63fa53433.bindPopup(popup_c7b346077e924bb2c58374f4cdafa525)
+        ;
+
+        
+    
+    
+            var circle_marker_f6539a41013181fdfbfb3c4f43f0f20f = L.circleMarker(
+                [43.9159, 17.6791],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_22ee1f56a7c71e5d6853633674c571fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8dc162441bb75d34da78fa8a2f906ab7 = $(`<div id="html_8dc162441bb75d34da78fa8a2f906ab7" style="width: 100.0%; height: 100.0%;">Bosnia and Herzegovina - 62.7119 persone/km²</div>`)[0];
+                popup_22ee1f56a7c71e5d6853633674c571fe.setContent(html_8dc162441bb75d34da78fa8a2f906ab7);
+            
+        
+
+        circle_marker_f6539a41013181fdfbfb3c4f43f0f20f.bindPopup(popup_22ee1f56a7c71e5d6853633674c571fe)
+        ;
+
+        
+    
+    
+            var circle_marker_33be356c52f11d9cd67056e4712e2067 = L.circleMarker(
+                [41.1533, 20.1683],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_022e1233674ce1b8eabb5215d2bdafb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3a0ae6e309f51128523f016151a8544 = $(`<div id="html_a3a0ae6e309f51128523f016151a8544" style="width: 100.0%; height: 100.0%;">Albania - 103.3737 persone/km²</div>`)[0];
+                popup_022e1233674ce1b8eabb5215d2bdafb5.setContent(html_a3a0ae6e309f51128523f016151a8544);
+            
+        
+
+        circle_marker_33be356c52f11d9cd67056e4712e2067.bindPopup(popup_022e1233674ce1b8eabb5215d2bdafb5)
+        ;
+
+        
+    
+    
+            var circle_marker_18d540cd208014563d18499fa73fe104 = L.circleMarker(
+                [18.1096, -77.2975],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_ab120649da8877decb3fc628d6426e27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bcfd6dc59c5b6f6af3ce8b54411b90b = $(`<div id="html_0bcfd6dc59c5b6f6af3ce8b54411b90b" style="width: 100.0%; height: 100.0%;">Jamaica - 260.8997 persone/km²</div>`)[0];
+                popup_ab120649da8877decb3fc628d6426e27.setContent(html_0bcfd6dc59c5b6f6af3ce8b54411b90b);
+            
+        
+
+        circle_marker_18d540cd208014563d18499fa73fe104.bindPopup(popup_ab120649da8877decb3fc628d6426e27)
+        ;
+
+        
+    
+    
+            var circle_marker_62860e1e921808ce5bcc2c01d96e5c48 = L.circleMarker(
+                [40.0691, 45.0382],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_38bf09f93982331681700a777b130997 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50a5960494e49b3c782124a6ea24479e = $(`<div id="html_50a5960494e49b3c782124a6ea24479e" style="width: 100.0%; height: 100.0%;">Armenia - 97.5753 persone/km²</div>`)[0];
+                popup_38bf09f93982331681700a777b130997.setContent(html_50a5960494e49b3c782124a6ea24479e);
+            
+        
+
+        circle_marker_62860e1e921808ce5bcc2c01d96e5c48.bindPopup(popup_38bf09f93982331681700a777b130997)
+        ;
+
+        
+    
+    
+            var circle_marker_eb903b689323faa8f26414bb0f67fddc = L.circleMarker(
+                [13.4432, -15.3101],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_92742bb7a201e9def26f5f9d33c8de22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_537c8ad99eb78ba9b8d084c8d45f549f = $(`<div id="html_537c8ad99eb78ba9b8d084c8d45f549f" style="width: 100.0%; height: 100.0%;">Gambia - 274.0285 persone/km²</div>`)[0];
+                popup_92742bb7a201e9def26f5f9d33c8de22.setContent(html_537c8ad99eb78ba9b8d084c8d45f549f);
+            
+        
+
+        circle_marker_eb903b689323faa8f26414bb0f67fddc.bindPopup(popup_92742bb7a201e9def26f5f9d33c8de22)
+        ;
+
+        
+    
+    
+            var circle_marker_9a4ecd71369a46a24f7fe4146c666adc = L.circleMarker(
+                [55.1694, 23.8813],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_50f2f0297eed0387c90d5cbd5c5d0671 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_195783b66b9b49d5e4f58ad5b21271a5 = $(`<div id="html_195783b66b9b49d5e4f58ad5b21271a5" style="width: 100.0%; height: 100.0%;">Lithuania - 43.4103 persone/km²</div>`)[0];
+                popup_50f2f0297eed0387c90d5cbd5c5d0671.setContent(html_195783b66b9b49d5e4f58ad5b21271a5);
+            
+        
+
+        circle_marker_9a4ecd71369a46a24f7fe4146c666adc.bindPopup(popup_50f2f0297eed0387c90d5cbd5c5d0671)
+        ;
+
+        
+    
+    
+            var circle_marker_e77f136d38afe4f198ebfc6622df10fc = L.circleMarker(
+                [25.3548, 51.1839],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_121090493db4cbef275607f8c9a65c25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0b4ee9a6772056bb1a42e378b4d4652 = $(`<div id="html_a0b4ee9a6772056bb1a42e378b4d4652" style="width: 100.0%; height: 100.0%;">Qatar - 236.4135 persone/km²</div>`)[0];
+                popup_121090493db4cbef275607f8c9a65c25.setContent(html_a0b4ee9a6772056bb1a42e378b4d4652);
+            
+        
+
+        circle_marker_e77f136d38afe4f198ebfc6622df10fc.bindPopup(popup_121090493db4cbef275607f8c9a65c25)
+        ;
+
+        
+    
+    
+            var circle_marker_adf4a60dd40aaa8ddb58171d8e6a5af1 = L.circleMarker(
+                [-22.3285, 24.6849],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_79ba0b0fe7228adc5b276060bf590293 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c58a8f1382d6ea5acc5d08cd4fe4b350 = $(`<div id="html_c58a8f1382d6ea5acc5d08cd4fe4b350" style="width: 100.0%; height: 100.0%;">Botswana - 4.7207 persone/km²</div>`)[0];
+                popup_79ba0b0fe7228adc5b276060bf590293.setContent(html_c58a8f1382d6ea5acc5d08cd4fe4b350);
+            
+        
+
+        circle_marker_adf4a60dd40aaa8ddb58171d8e6a5af1.bindPopup(popup_79ba0b0fe7228adc5b276060bf590293)
+        ;
+
+        
+    
+    
+            var circle_marker_715be1562b1b64064a16dfd3090f93a4 = L.circleMarker(
+                [-22.9576, 18.4904],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_ce1558600f861d0075d63d1597b3b453 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62361dfc2f3ef58c88f7d51ba6da4da2 = $(`<div id="html_62361dfc2f3ef58c88f7d51ba6da4da2" style="width: 100.0%; height: 100.0%;">Namibia - 3.1631 persone/km²</div>`)[0];
+                popup_ce1558600f861d0075d63d1597b3b453.setContent(html_62361dfc2f3ef58c88f7d51ba6da4da2);
+            
+        
+
+        circle_marker_715be1562b1b64064a16dfd3090f93a4.bindPopup(popup_ce1558600f861d0075d63d1597b3b453)
+        ;
+
+        
+    
+    
+            var circle_marker_28c40e973267274790db9c440da03437 = L.circleMarker(
+                [0.8037, 11.6094],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_994806ab92dc123625d466e84ae5d228 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba7ea83ad35f4778e3a5e40221280a60 = $(`<div id="html_ba7ea83ad35f4778e3a5e40221280a60" style="width: 100.0%; height: 100.0%;">Gabon - 9.4561 persone/km²</div>`)[0];
+                popup_994806ab92dc123625d466e84ae5d228.setContent(html_ba7ea83ad35f4778e3a5e40221280a60);
+            
+        
+
+        circle_marker_28c40e973267274790db9c440da03437.bindPopup(popup_994806ab92dc123625d466e84ae5d228)
+        ;
+
+        
+    
+    
+            var circle_marker_16a0edc5b9c458fc23fb82661ed33c5a = L.circleMarker(
+                [-29.6093, 28.2336],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_395073028936cc4815d6d2d6220b6959 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ec2cbc812f0b0354b313e37a533f9fb = $(`<div id="html_5ec2cbc812f0b0354b313e37a533f9fb" style="width: 100.0%; height: 100.0%;">Lesotho - 76.7562 persone/km²</div>`)[0];
+                popup_395073028936cc4815d6d2d6220b6959.setContent(html_5ec2cbc812f0b0354b313e37a533f9fb);
+            
+        
+
+        circle_marker_16a0edc5b9c458fc23fb82661ed33c5a.bindPopup(popup_395073028936cc4815d6d2d6220b6959)
+        ;
+
+        
+    
+    
+            var circle_marker_d69a93a3577106e96439fa22301d34a4 = L.circleMarker(
+                [11.8037, -15.1804],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_004c9f5d1055eeebb4cd9566b386b5ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf3a2bc45b4a584d321383052f979c1c = $(`<div id="html_bf3a2bc45b4a584d321383052f979c1c" style="width: 100.0%; height: 100.0%;">Guinea-Bissau - 76.488 persone/km²</div>`)[0];
+                popup_004c9f5d1055eeebb4cd9566b386b5ae.setContent(html_bf3a2bc45b4a584d321383052f979c1c);
+            
+        
+
+        circle_marker_d69a93a3577106e96439fa22301d34a4.bindPopup(popup_004c9f5d1055eeebb4cd9566b386b5ae)
+        ;
+
+        
+    
+    
+            var circle_marker_6a7bf28b013af7e92540175acc9f1a81 = L.circleMarker(
+                [46.1511, 14.9955],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_79a2f396ab537a82baad658e59daf87c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47af8e1db357e124bbb86d2fc4e95c7b = $(`<div id="html_47af8e1db357e124bbb86d2fc4e95c7b" style="width: 100.0%; height: 100.0%;">Slovenia - 105.2658 persone/km²</div>`)[0];
+                popup_79a2f396ab537a82baad658e59daf87c.setContent(html_47af8e1db357e124bbb86d2fc4e95c7b);
+            
+        
+
+        circle_marker_6a7bf28b013af7e92540175acc9f1a81.bindPopup(popup_79a2f396ab537a82baad658e59daf87c)
+        ;
+
+        
+    
+    
+            var circle_marker_ec45d1acda7595fbf41a598b96cceec1 = L.circleMarker(
+                [41.6086, 21.7453],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_c287a22c6e3b67ad4f88015b38f68520 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0951e4f559be49f1f9d6829f132eb377 = $(`<div id="html_0951e4f559be49f1f9d6829f132eb377" style="width: 100.0%; height: 100.0%;">North Macedonia - 82.6994 persone/km²</div>`)[0];
+                popup_c287a22c6e3b67ad4f88015b38f68520.setContent(html_0951e4f559be49f1f9d6829f132eb377);
+            
+        
+
+        circle_marker_ec45d1acda7595fbf41a598b96cceec1.bindPopup(popup_c287a22c6e3b67ad4f88015b38f68520)
+        ;
+
+        
+    
+    
+            var circle_marker_e5089ab35b53810a53423ec1c08f557b = L.circleMarker(
+                [56.8796, 24.6032],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_01245c7f005391e47a6446a3d8b3ca1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a22d900be159bab3a194326b6cf57fd6 = $(`<div id="html_a22d900be159bab3a194326b6cf57fd6" style="width: 100.0%; height: 100.0%;">Latvia - 29.4104 persone/km²</div>`)[0];
+                popup_01245c7f005391e47a6446a3d8b3ca1f.setContent(html_a22d900be159bab3a194326b6cf57fd6);
+            
+        
+
+        circle_marker_e5089ab35b53810a53423ec1c08f557b.bindPopup(popup_01245c7f005391e47a6446a3d8b3ca1f)
+        ;
+
+        
+    
+    
+            var circle_marker_60eb53e9d49cc063298412e1883130db = L.circleMarker(
+                [1.6508, 10.2679],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_042d726bae576298b4316aa5a714e346 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fca534014dbad8b6624e0ef1ccf79273 = $(`<div id="html_fca534014dbad8b6624e0ef1ccf79273" style="width: 100.0%; height: 100.0%;">Equatorial Guinea - 61.1291 persone/km²</div>`)[0];
+                popup_042d726bae576298b4316aa5a714e346.setContent(html_fca534014dbad8b6624e0ef1ccf79273);
+            
+        
+
+        circle_marker_60eb53e9d49cc063298412e1883130db.bindPopup(popup_042d726bae576298b4316aa5a714e346)
+        ;
+
+        
+    
+    
+            var circle_marker_0339f2055f6c93068cfcd49c1c3a3fd2 = L.circleMarker(
+                [10.6918, -61.2225],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_4fd4287f065ca58d3485a5664dd0784f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c201ab5510131b6a828a427fb544c70 = $(`<div id="html_4c201ab5510131b6a828a427fb544c70" style="width: 100.0%; height: 100.0%;">Trinidad and Tobago - 299.208 persone/km²</div>`)[0];
+                popup_4fd4287f065ca58d3485a5664dd0784f.setContent(html_4c201ab5510131b6a828a427fb544c70);
+            
+        
+
+        circle_marker_0339f2055f6c93068cfcd49c1c3a3fd2.bindPopup(popup_4fd4287f065ca58d3485a5664dd0784f)
+        ;
+
+        
+    
+    
+            var circle_marker_78fdacf91581a46e5f2cefba2bae70b9 = L.circleMarker(
+                [25.9304, 50.6378],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_b582bfd382caa11f668d88c5f672bf55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88501f6dd35250ec11a10fec97cc7731 = $(`<div id="html_88501f6dd35250ec11a10fec97cc7731" style="width: 100.0%; height: 100.0%;">Bahrain - 1892.3682 persone/km²</div>`)[0];
+                popup_b582bfd382caa11f668d88c5f672bf55.setContent(html_88501f6dd35250ec11a10fec97cc7731);
+            
+        
+
+        circle_marker_78fdacf91581a46e5f2cefba2bae70b9.bindPopup(popup_b582bfd382caa11f668d88c5f672bf55)
+        ;
+
+        
+    
+    
+            var circle_marker_663466ac0edfb8b0a93ce0940bbabfb4 = L.circleMarker(
+                [-8.8742, 125.7275],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_7fb0c31ad3f6b3f18cd10a3ac9779e74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c7b018389516f170857e3c9d42f9b83 = $(`<div id="html_7c7b018389516f170857e3c9d42f9b83" style="width: 100.0%; height: 100.0%;">Timor-Leste - 91.4994 persone/km²</div>`)[0];
+                popup_7fb0c31ad3f6b3f18cd10a3ac9779e74.setContent(html_7c7b018389516f170857e3c9d42f9b83);
+            
+        
+
+        circle_marker_663466ac0edfb8b0a93ce0940bbabfb4.bindPopup(popup_7fb0c31ad3f6b3f18cd10a3ac9779e74)
+        ;
+
+        
+    
+    
+            var circle_marker_f69d1849f69ebf2bc2e5ab21edeaaf86 = L.circleMarker(
+                [58.5953, 25.0136],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_833e86ab84fa42c9d722ae0305999a59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_deb265665c6a54e277ae5012c7029081 = $(`<div id="html_deb265665c6a54e277ae5012c7029081" style="width: 100.0%; height: 100.0%;">Estonia - 30.9419 persone/km²</div>`)[0];
+                popup_833e86ab84fa42c9d722ae0305999a59.setContent(html_deb265665c6a54e277ae5012c7029081);
+            
+        
+
+        circle_marker_f69d1849f69ebf2bc2e5ab21edeaaf86.bindPopup(popup_833e86ab84fa42c9d722ae0305999a59)
+        ;
+
+        
+    
+    
+            var circle_marker_9439160adc14bec8a8711f0a021d3c7a = L.circleMarker(
+                [-20.3484, 57.5522],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_16931a56369559723bb34c783927dfce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e009cf112e5f2a819efb015e3b5aba4 = $(`<div id="html_2e009cf112e5f2a819efb015e3b5aba4" style="width: 100.0%; height: 100.0%;">Mauritius - 640.6685 persone/km²</div>`)[0];
+                popup_16931a56369559723bb34c783927dfce.setContent(html_2e009cf112e5f2a819efb015e3b5aba4);
+            
+        
+
+        circle_marker_9439160adc14bec8a8711f0a021d3c7a.bindPopup(popup_16931a56369559723bb34c783927dfce)
+        ;
+
+        
+    
+    
+            var circle_marker_d36ef541371c000d80ec192fc050e851 = L.circleMarker(
+                [35.1264, 33.4299],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_e4258941b4c2ebaa0f7986eacec3b47a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00035fa5ad1129172d6e9a8e1e0fd387 = $(`<div id="html_00035fa5ad1129172d6e9a8e1e0fd387" style="width: 100.0%; height: 100.0%;">Cyprus - 136.3786 persone/km²</div>`)[0];
+                popup_e4258941b4c2ebaa0f7986eacec3b47a.setContent(html_00035fa5ad1129172d6e9a8e1e0fd387);
+            
+        
+
+        circle_marker_d36ef541371c000d80ec192fc050e851.bindPopup(popup_e4258941b4c2ebaa0f7986eacec3b47a)
+        ;
+
+        
+    
+    
+            var circle_marker_a5414f72d19195117c78506d3d6a78f1 = L.circleMarker(
+                [11.8251, 42.5903],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_e9723116300ef23352efbb89aaf6abd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a92a2f50c6fa4ebaf7b0247bb8c5de1c = $(`<div id="html_a92a2f50c6fa4ebaf7b0247bb8c5de1c" style="width: 100.0%; height: 100.0%;">Djibouti - 49.0274 persone/km²</div>`)[0];
+                popup_e9723116300ef23352efbb89aaf6abd5.setContent(html_a92a2f50c6fa4ebaf7b0247bb8c5de1c);
+            
+        
+
+        circle_marker_a5414f72d19195117c78506d3d6a78f1.bindPopup(popup_e9723116300ef23352efbb89aaf6abd5)
+        ;
+
+        
+    
+    
+            var circle_marker_04fd6b009731b1c910a4e51b721fcbe4 = L.circleMarker(
+                [-16.5782, 179.4144],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_e08f0e5eb97e7ddcaa656c6be6c3b154 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfeb616fc30608e6813dc92f416ea5ef = $(`<div id="html_cfeb616fc30608e6813dc92f416ea5ef" style="width: 100.0%; height: 100.0%;">Fiji - 51.2521 persone/km²</div>`)[0];
+                popup_e08f0e5eb97e7ddcaa656c6be6c3b154.setContent(html_cfeb616fc30608e6813dc92f416ea5ef);
+            
+        
+
+        circle_marker_04fd6b009731b1c910a4e51b721fcbe4.bindPopup(popup_e08f0e5eb97e7ddcaa656c6be6c3b154)
+        ;
+
+        
+    
+    
+            var circle_marker_37c3d69fd3636cd91d47b2b4780519d7 = L.circleMarker(
+                [-11.875, 43.8722],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_36439054c5a188e67dcb2415caa70abd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cb42f8eed401c408c68f9dbe2ff03ec = $(`<div id="html_5cb42f8eed401c408c68f9dbe2ff03ec" style="width: 100.0%; height: 100.0%;">Comoros - 457.8587 persone/km²</div>`)[0];
+                popup_36439054c5a188e67dcb2415caa70abd.setContent(html_5cb42f8eed401c408c68f9dbe2ff03ec);
+            
+        
+
+        circle_marker_37c3d69fd3636cd91d47b2b4780519d7.bindPopup(popup_36439054c5a188e67dcb2415caa70abd)
+        ;
+
+        
+    
+    
+            var circle_marker_f052b97765491c352b8c2bfda7806586 = L.circleMarker(
+                [4.8604, -58.9302],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_d522f59c558fe7c59c098f6bc34b05cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dae1c46e1497b0c1b3802ddcb0cbd3dd = $(`<div id="html_dae1c46e1497b0c1b3802ddcb0cbd3dd" style="width: 100.0%; height: 100.0%;">Guyana - 4.1343 persone/km²</div>`)[0];
+                popup_d522f59c558fe7c59c098f6bc34b05cc.setContent(html_dae1c46e1497b0c1b3802ddcb0cbd3dd);
+            
+        
+
+        circle_marker_f052b97765491c352b8c2bfda7806586.bindPopup(popup_d522f59c558fe7c59c098f6bc34b05cc)
+        ;
+
+        
+    
+    
+            var circle_marker_0f1696b9d46a3fba06468885e93c5e2e = L.circleMarker(
+                [27.5147, 90.4336],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_5f5d7522228dcc8952a4b24dcc9479b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e9b1a851e812c9b3cb532af563242ff = $(`<div id="html_8e9b1a851e812c9b3cb532af563242ff" style="width: 100.0%; height: 100.0%;">Bhutan - 20.6456 persone/km²</div>`)[0];
+                popup_5f5d7522228dcc8952a4b24dcc9479b8.setContent(html_8e9b1a851e812c9b3cb532af563242ff);
+            
+        
+
+        circle_marker_0f1696b9d46a3fba06468885e93c5e2e.bindPopup(popup_5f5d7522228dcc8952a4b24dcc9479b8)
+        ;
+
+        
+    
+    
+            var circle_marker_60ea72b55420de9ab75cf5475bb6a4bd = L.circleMarker(
+                [-29.6093, 28.2336],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_cd6b37858a836e7463e163b1de1a0288 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3befa0601c2c9b437ea1f2402e95ef32 = $(`<div id="html_3befa0601c2c9b437ea1f2402e95ef32" style="width: 100.0%; height: 100.0%;">Solomon Islands - 26.4532 persone/km²</div>`)[0];
+                popup_cd6b37858a836e7463e163b1de1a0288.setContent(html_3befa0601c2c9b437ea1f2402e95ef32);
+            
+        
+
+        circle_marker_60ea72b55420de9ab75cf5475bb6a4bd.bindPopup(popup_cd6b37858a836e7463e163b1de1a0288)
+        ;
+
+        
+    
+    
+            var circle_marker_5ca03aeac80d725c6f0ad9956e0fa693 = L.circleMarker(
+                [49.6117, 6.13],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_2f7668bdab3d106a70366eaf5bb6fbbf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eff6774064fe46203007f18c43fab18a = $(`<div id="html_eff6774064fe46203007f18c43fab18a" style="width: 100.0%; height: 100.0%;">Luxembourg - 254.3282 persone/km²</div>`)[0];
+                popup_2f7668bdab3d106a70366eaf5bb6fbbf.setContent(html_eff6774064fe46203007f18c43fab18a);
+            
+        
+
+        circle_marker_5ca03aeac80d725c6f0ad9956e0fa693.bindPopup(popup_2f7668bdab3d106a70366eaf5bb6fbbf)
+        ;
+
+        
+    
+    
+            var circle_marker_0f2948d1f2f2d3792c7b90a72773d937 = L.circleMarker(
+                [42.7087, 19.3744],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_715806360a9fc538bb7c426ba44a020a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbe8dccae6b53eb8f0e1b622eb988996 = $(`<div id="html_bbe8dccae6b53eb8f0e1b622eb988996" style="width: 100.0%; height: 100.0%;">Montenegro - 46.5788 persone/km²</div>`)[0];
+                popup_715806360a9fc538bb7c426ba44a020a.setContent(html_bbe8dccae6b53eb8f0e1b622eb988996);
+            
+        
+
+        circle_marker_0f2948d1f2f2d3792c7b90a72773d937.bindPopup(popup_715806360a9fc538bb7c426ba44a020a)
+        ;
+
+        
+    
+    
+            var circle_marker_9c8843c3afdf442d2a8eae866ec7bd93 = L.circleMarker(
+                [3.9196, -56.0278],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_6b4553bd9d65f79504af1516932671ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2c6b8e57f15a2aae9b5c0df7cd5b5ac = $(`<div id="html_e2c6b8e57f15a2aae9b5c0df7cd5b5ac" style="width: 100.0%; height: 100.0%;">Suriname - 3.9951 persone/km²</div>`)[0];
+                popup_6b4553bd9d65f79504af1516932671ad.setContent(html_e2c6b8e57f15a2aae9b5c0df7cd5b5ac);
+            
+        
+
+        circle_marker_9c8843c3afdf442d2a8eae866ec7bd93.bindPopup(popup_6b4553bd9d65f79504af1516932671ad)
+        ;
+
+        
+    
+    
+            var circle_marker_f6a5163187de93329a8ddff0dcc0240c = L.circleMarker(
+                [35.9375, 14.3754],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_0dfebe57064d29e494b4bfe5bd6d198c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60fd2533cb4ee26c0744bd8591d8d1b4 = $(`<div id="html_60fd2533cb4ee26c0744bd8591d8d1b4" style="width: 100.0%; height: 100.0%;">Malta - 1672.075 persone/km²</div>`)[0];
+                popup_0dfebe57064d29e494b4bfe5bd6d198c.setContent(html_60fd2533cb4ee26c0744bd8591d8d1b4);
+            
+        
+
+        circle_marker_f6a5163187de93329a8ddff0dcc0240c.bindPopup(popup_0dfebe57064d29e494b4bfe5bd6d198c)
+        ;
+
+        
+    
+    
+            var circle_marker_939b8ff1b9fff464b243ad422838a90e = L.circleMarker(
+                [3.2028, 73.2207],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_2923d02d934565bc74178ed06f9bd72c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30bbbb51684dc0ef75df4efca13f8103 = $(`<div id="html_30bbbb51684dc0ef75df4efca13f8103" style="width: 100.0%; height: 100.0%;">Maldives - 1736.7367 persone/km²</div>`)[0];
+                popup_2923d02d934565bc74178ed06f9bd72c.setContent(html_30bbbb51684dc0ef75df4efca13f8103);
+            
+        
+
+        circle_marker_939b8ff1b9fff464b243ad422838a90e.bindPopup(popup_2923d02d934565bc74178ed06f9bd72c)
+        ;
+
+        
+    
+    
+            var circle_marker_b16a4fd76b620dec25e1aa55675536f4 = L.circleMarker(
+                [4.5353, 114.7277],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_8b75f071336fe8b06fea3f3868ed3af3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30d6d834acd485f90f14bb00143c9bb7 = $(`<div id="html_30d6d834acd485f90f14bb00143c9bb7" style="width: 100.0%; height: 100.0%;">Brunei - 85.8679 persone/km²</div>`)[0];
+                popup_8b75f071336fe8b06fea3f3868ed3af3.setContent(html_30d6d834acd485f90f14bb00143c9bb7);
+            
+        
+
+        circle_marker_b16a4fd76b620dec25e1aa55675536f4.bindPopup(popup_8b75f071336fe8b06fea3f3868ed3af3)
+        ;
+
+        
+    
+    
+            var circle_marker_a7613405c0edab9111cd19be35711841 = L.circleMarker(
+                [25.0343, -77.3963],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_65e2530030f6625a986d80d7ed545180 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96841cdbf0e999bb3bc38ca9b6e6ede5 = $(`<div id="html_96841cdbf0e999bb3bc38ca9b6e6ede5" style="width: 100.0%; height: 100.0%;">Bahamas - 41.2211 persone/km²</div>`)[0];
+                popup_65e2530030f6625a986d80d7ed545180.setContent(html_96841cdbf0e999bb3bc38ca9b6e6ede5);
+            
+        
+
+        circle_marker_a7613405c0edab9111cd19be35711841.bindPopup(popup_65e2530030f6625a986d80d7ed545180)
+        ;
+
+        
+    
+    
+            var circle_marker_7c41ee2f86760ee157ab093f02627be0 = L.circleMarker(
+                [17.1899, -88.4976],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_e047f8f9e7909689cde1983e2d6a4a99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46fba380c7b7f8124f5a72e34b58d7b4 = $(`<div id="html_46fba380c7b7f8124f5a72e34b58d7b4" style="width: 100.0%; height: 100.0%;">Belize - 18.0107 persone/km²</div>`)[0];
+                popup_e047f8f9e7909689cde1983e2d6a4a99.setContent(html_46fba380c7b7f8124f5a72e34b58d7b4);
+            
+        
+
+        circle_marker_7c41ee2f86760ee157ab093f02627be0.bindPopup(popup_e047f8f9e7909689cde1983e2d6a4a99)
+        ;
+
+        
+    
+    
+            var circle_marker_5ba0d28de9db1fa0ba41cf67e3155c61 = L.circleMarker(
+                [64.9631, -19.0208],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_21e2f4a3e996a8969957766f2508198b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d340e6b7105b49b588df162c92b34bb = $(`<div id="html_0d340e6b7105b49b588df162c92b34bb" style="width: 100.0%; height: 100.0%;">Iceland - 3.7223 persone/km²</div>`)[0];
+                popup_21e2f4a3e996a8969957766f2508198b.setContent(html_0d340e6b7105b49b588df162c92b34bb);
+            
+        
+
+        circle_marker_5ba0d28de9db1fa0ba41cf67e3155c61.bindPopup(popup_21e2f4a3e996a8969957766f2508198b)
+        ;
+
+        
+    
+    
+            var circle_marker_f98650aac00d26d4d0670dcc84003ca8 = L.circleMarker(
+                [-15.3767, 166.9592],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_b40ce0713226531458e6da198f393895 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab4bd4ea6a541d88717f8c4290783481 = $(`<div id="html_ab4bd4ea6a541d88717f8c4290783481" style="width: 100.0%; height: 100.0%;">Vanuatu - 27.441 persone/km²</div>`)[0];
+                popup_b40ce0713226531458e6da198f393895.setContent(html_ab4bd4ea6a541d88717f8c4290783481);
+            
+        
+
+        circle_marker_f98650aac00d26d4d0670dcc84003ca8.bindPopup(popup_b40ce0713226531458e6da198f393895)
+        ;
+
+        
+    
+    
+            var circle_marker_5e089ccafb2c23faf6ceeb6bb00adbcf = L.circleMarker(
+                [13.1939, -59.5432],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_c64c4405bfa432cfd5031612702470b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69dfd86d823252f76b5b629ec520184a = $(`<div id="html_69dfd86d823252f76b5b629ec520184a" style="width: 100.0%; height: 100.0%;">Barbados - 655.8023 persone/km²</div>`)[0];
+                popup_c64c4405bfa432cfd5031612702470b8.setContent(html_69dfd86d823252f76b5b629ec520184a);
+            
+        
+
+        circle_marker_5e089ccafb2c23faf6ceeb6bb00adbcf.bindPopup(popup_c64c4405bfa432cfd5031612702470b8)
+        ;
+
+        
+    
+    
+            var circle_marker_4a4fb0564e8bc1997aed63c8d931efb3 = L.circleMarker(
+                [0.1864, 6.6131],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_7e9b3f20bd45ca8c9864d13981b4267a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d5e96a20d271e1f0471190cc86f038d = $(`<div id="html_2d5e96a20d271e1f0471190cc86f038d" style="width: 100.0%; height: 100.0%;">Sao Tome and Principe - 241.5167 persone/km²</div>`)[0];
+                popup_7e9b3f20bd45ca8c9864d13981b4267a.setContent(html_2d5e96a20d271e1f0471190cc86f038d);
+            
+        
+
+        circle_marker_4a4fb0564e8bc1997aed63c8d931efb3.bindPopup(popup_7e9b3f20bd45ca8c9864d13981b4267a)
+        ;
+
+        
+    
+    
+            var circle_marker_0840fb3b056019778bea99a6ffdc256c = L.circleMarker(
+                [-13.759, -172.1046],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_c57bd30e1df85baac5391aa2c5567797 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d03e49fb2a4be92cdff4b2e04fcf19a = $(`<div id="html_4d03e49fb2a4be92cdff4b2e04fcf19a" style="width: 100.0%; height: 100.0%;">Samoa - 81.1802 persone/km²</div>`)[0];
+                popup_c57bd30e1df85baac5391aa2c5567797.setContent(html_4d03e49fb2a4be92cdff4b2e04fcf19a);
+            
+        
+
+        circle_marker_0840fb3b056019778bea99a6ffdc256c.bindPopup(popup_c57bd30e1df85baac5391aa2c5567797)
+        ;
+
+        
+    
+    
+            var circle_marker_b43913688ca8d7d472b8aa57734c073b = L.circleMarker(
+                [13.9094, -60.9789],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_50819a8a6d9b012e525dc6c0688aab4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad70438ddb10197d321c13103921ae65 = $(`<div id="html_ad70438ddb10197d321c13103921ae65" style="width: 100.0%; height: 100.0%;">Saint Lucia - 295.4934 persone/km²</div>`)[0];
+                popup_50819a8a6d9b012e525dc6c0688aab4f.setContent(html_ad70438ddb10197d321c13103921ae65);
+            
+        
+
+        circle_marker_b43913688ca8d7d472b8aa57734c073b.bindPopup(popup_50819a8a6d9b012e525dc6c0688aab4f)
+        ;
+
+        
+    
+    
+            var circle_marker_e87c7ba1c800a9a9fd05ce45151554c9 = L.circleMarker(
+                [1.4518, 157.5235],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_d021ea811de4798564028bd9bebe964a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00783b2a37dba6955b3e06566db00ceb = $(`<div id="html_00783b2a37dba6955b3e06566db00ceb" style="width: 100.0%; height: 100.0%;">Kiribati - 164.8333 persone/km²</div>`)[0];
+                popup_d021ea811de4798564028bd9bebe964a.setContent(html_00783b2a37dba6955b3e06566db00ceb);
+            
+        
+
+        circle_marker_e87c7ba1c800a9a9fd05ce45151554c9.bindPopup(popup_d021ea811de4798564028bd9bebe964a)
+        ;
+
+        
+    
+    
+            var circle_marker_9b0d929ad9b1fc2ed18955ec87cab628 = L.circleMarker(
+                [12.2628, -61.6042],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_f97132af6892716ddbda25657d0674da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a933ee5ef2be3fdc08f388cd2bb01061 = $(`<div id="html_a933ee5ef2be3fdc08f388cd2bb01061" style="width: 100.0%; height: 100.0%;">Grenada - 371.1265 persone/km²</div>`)[0];
+                popup_f97132af6892716ddbda25657d0674da.setContent(html_a933ee5ef2be3fdc08f388cd2bb01061);
+            
+        
+
+        circle_marker_9b0d929ad9b1fc2ed18955ec87cab628.bindPopup(popup_f97132af6892716ddbda25657d0674da)
+        ;
+
+        
+    
+    
+            var circle_marker_1da4c9543f760a5b9eeca87342266594 = L.circleMarker(
+                [7.4256, 150.5508],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_fc01d2bb2a746cda41533ef7521bbf0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4fdf233b0cd3ae21b2edc7965d10440 = $(`<div id="html_a4fdf233b0cd3ae21b2edc7965d10440" style="width: 100.0%; height: 100.0%;">Micronesia - 164.6057 persone/km²</div>`)[0];
+                popup_fc01d2bb2a746cda41533ef7521bbf0c.setContent(html_a4fdf233b0cd3ae21b2edc7965d10440);
+            
+        
+
+        circle_marker_1da4c9543f760a5b9eeca87342266594.bindPopup(popup_fc01d2bb2a746cda41533ef7521bbf0c)
+        ;
+
+        
+    
+    
+            var circle_marker_13bd7a0ab42621c2c2bdfb42c3d2248e = L.circleMarker(
+                [-21.1785, -175.1982],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_c276947a86820e71b0bb6770dea44cbd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28711b151f997ad6ae6aaace930a2bf2 = $(`<div id="html_28711b151f997ad6ae6aaace930a2bf2" style="width: 100.0%; height: 100.0%;">Tonga - 149.6847 persone/km²</div>`)[0];
+                popup_c276947a86820e71b0bb6770dea44cbd.setContent(html_28711b151f997ad6ae6aaace930a2bf2);
+            
+        
+
+        circle_marker_13bd7a0ab42621c2c2bdfb42c3d2248e.bindPopup(popup_c276947a86820e71b0bb6770dea44cbd)
+        ;
+
+        
+    
+    
+            var circle_marker_2b5e69d382ee530b5ac37960a7d80c88 = L.circleMarker(
+                [-4.6796, 55.4915],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_1e23b5284526020173fe53e4f81a9643 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85ab9476da8295387f1bdba1d2931235 = $(`<div id="html_85ab9476da8295387f1bdba1d2931235" style="width: 100.0%; height: 100.0%;">Seychelles - 234.0435 persone/km²</div>`)[0];
+                popup_1e23b5284526020173fe53e4f81a9643.setContent(html_85ab9476da8295387f1bdba1d2931235);
+            
+        
+
+        circle_marker_2b5e69d382ee530b5ac37960a7d80c88.bindPopup(popup_1e23b5284526020173fe53e4f81a9643)
+        ;
+
+        
+    
+    
+            var circle_marker_e1f07a8e06c216330daf7fe276c11091 = L.circleMarker(
+                [12.9843, -61.2872],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_2ef087a2dc7a23b567b0185cc58d18e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adabdbc4e311fe2099005978a3997b9e = $(`<div id="html_adabdbc4e311fe2099005978a3997b9e" style="width: 100.0%; height: 100.0%;">Saint Vincent and the Grenadines - 265.8923 persone/km²</div>`)[0];
+                popup_2ef087a2dc7a23b567b0185cc58d18e8.setContent(html_adabdbc4e311fe2099005978a3997b9e);
+            
+        
+
+        circle_marker_e1f07a8e06c216330daf7fe276c11091.bindPopup(popup_2ef087a2dc7a23b567b0185cc58d18e8)
+        ;
+
+        
+    
+    
+            var circle_marker_9d9444b1e521153d3a7fceef57a46cf5 = L.circleMarker(
+                [17.0608, -61.7964],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_9757586322e413f4efef649100804002 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54ab707dbf90e87220233bf780f2880e = $(`<div id="html_54ab707dbf90e87220233bf780f2880e" style="width: 100.0%; height: 100.0%;">Antigua and Barbuda - 214.3136 persone/km²</div>`)[0];
+                popup_9757586322e413f4efef649100804002.setContent(html_54ab707dbf90e87220233bf780f2880e);
+            
+        
+
+        circle_marker_9d9444b1e521153d3a7fceef57a46cf5.bindPopup(popup_9757586322e413f4efef649100804002)
+        ;
+
+        
+    
+    
+            var circle_marker_80e886768415b448c1f117cb4e640d99 = L.circleMarker(
+                [42.5078, 1.5211],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_8d6e8601db7e37bd5c8dd3b70341463f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_255090a879bdd4b645e18d541af24f32 = $(`<div id="html_255090a879bdd4b645e18d541af24f32" style="width: 100.0%; height: 100.0%;">Andorra - 170.4 persone/km²</div>`)[0];
+                popup_8d6e8601db7e37bd5c8dd3b70341463f.setContent(html_255090a879bdd4b645e18d541af24f32);
+            
+        
+
+        circle_marker_80e886768415b448c1f117cb4e640d99.bindPopup(popup_8d6e8601db7e37bd5c8dd3b70341463f)
+        ;
+
+        
+    
+    
+            var circle_marker_741e886e0cdb00c75f528b169168d6c4 = L.circleMarker(
+                [15.4149, -61.37],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_8e5c777121c6964e8095893eb6ddfcf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acaa5ac44795ea113da9e29c13bfe90f = $(`<div id="html_acaa5ac44795ea113da9e29c13bfe90f" style="width: 100.0%; height: 100.0%;">Dominica - 97.3867 persone/km²</div>`)[0];
+                popup_8e5c777121c6964e8095893eb6ddfcf5.setContent(html_acaa5ac44795ea113da9e29c13bfe90f);
+            
+        
+
+        circle_marker_741e886e0cdb00c75f528b169168d6c4.bindPopup(popup_8e5c777121c6964e8095893eb6ddfcf5)
+        ;
+
+        
+    
+    
+            var circle_marker_7b430d87381c5d52a1558989dbe0737e = L.circleMarker(
+                [17.3576, -62.782998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_bba7347778253c1049aa652d1281ff6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4c534670f77560771e724bef487fe89 = $(`<div id="html_d4c534670f77560771e724bef487fe89" style="width: 100.0%; height: 100.0%;">Saint Kitts and Nevis - 183.6731 persone/km²</div>`)[0];
+                popup_bba7347778253c1049aa652d1281ff6b.setContent(html_d4c534670f77560771e724bef487fe89);
+            
+        
+
+        circle_marker_7b430d87381c5d52a1558989dbe0737e.bindPopup(popup_bba7347778253c1049aa652d1281ff6b)
+        ;
+
+        
+    
+    
+            var circle_marker_c3ac99dafd6ca06b0a12c37ab10211d4 = L.circleMarker(
+                [7.1315, 171.1845],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_61c5c146f832fd2d26320d43ff5d7a1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecf43c6c0a9180721b8f21dedde99069 = $(`<div id="html_ecf43c6c0a9180721b8f21dedde99069" style="width: 100.0%; height: 100.0%;">Marshall Islands - 233.3111 persone/km²</div>`)[0];
+                popup_61c5c146f832fd2d26320d43ff5d7a1c.setContent(html_ecf43c6c0a9180721b8f21dedde99069);
+            
+        
+
+        circle_marker_c3ac99dafd6ca06b0a12c37ab10211d4.bindPopup(popup_61c5c146f832fd2d26320d43ff5d7a1c)
+        ;
+
+        
+    
+    
+            var circle_marker_c0a8284fbd5acea053d707316c6a6d53 = L.circleMarker(
+                [47.166, 9.5554],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_3bdfa8e5e7a1f4a07cb63a1b7ce736bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6a2eee95996b5120e5a304f1cfa8f8a = $(`<div id="html_f6a2eee95996b5120e5a304f1cfa8f8a" style="width: 100.0%; height: 100.0%;">Liechtenstein - 247.4 persone/km²</div>`)[0];
+                popup_3bdfa8e5e7a1f4a07cb63a1b7ce736bc.setContent(html_f6a2eee95996b5120e5a304f1cfa8f8a);
+            
+        
+
+        circle_marker_c0a8284fbd5acea053d707316c6a6d53.bindPopup(popup_3bdfa8e5e7a1f4a07cb63a1b7ce736bc)
+        ;
+
+        
+    
+    
+            var circle_marker_9f7e12d8a4f57bb24eb07255a113f76b = L.circleMarker(
+                [43.7333, 7.4167],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_0d968c06dc86f8b72e005a0827a6ba84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dce4285487dd4642b7d2f23c834a00d0 = $(`<div id="html_dce4285487dd4642b7d2f23c834a00d0" style="width: 100.0%; height: 100.0%;">Monaco - 18148.5 persone/km²</div>`)[0];
+                popup_0d968c06dc86f8b72e005a0827a6ba84.setContent(html_dce4285487dd4642b7d2f23c834a00d0);
+            
+        
+
+        circle_marker_9f7e12d8a4f57bb24eb07255a113f76b.bindPopup(popup_0d968c06dc86f8b72e005a0827a6ba84)
+        ;
+
+        
+    
+    
+            var circle_marker_899b9a04b3da1ce8f1b0640865fbce28 = L.circleMarker(
+                [43.9333, 12.45],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_0de740266c7cdca0db21d943cab81b2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09d1f5fcf1bf198e2035001daf430f57 = $(`<div id="html_09d1f5fcf1bf198e2035001daf430f57" style="width: 100.0%; height: 100.0%;">San Marino - 560.7 persone/km²</div>`)[0];
+                popup_0de740266c7cdca0db21d943cab81b2f.setContent(html_09d1f5fcf1bf198e2035001daf430f57);
+            
+        
+
+        circle_marker_899b9a04b3da1ce8f1b0640865fbce28.bindPopup(popup_0de740266c7cdca0db21d943cab81b2f)
+        ;
+
+        
+    
+    
+            var circle_marker_d4a02605e08dd6938d62afa5896a78c4 = L.circleMarker(
+                [7.5149, 134.5825],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_1a4371e69280e1f78905c45743a624ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e87bf786e8e7120793ee5710aa3a9e3b = $(`<div id="html_e87bf786e8e7120793ee5710aa3a9e3b" style="width: 100.0%; height: 100.0%;">Palau - 39.2565 persone/km²</div>`)[0];
+                popup_1a4371e69280e1f78905c45743a624ca.setContent(html_e87bf786e8e7120793ee5710aa3a9e3b);
+            
+        
+
+        circle_marker_d4a02605e08dd6938d62afa5896a78c4.bindPopup(popup_1a4371e69280e1f78905c45743a624ca)
+        ;
+
+        
+    
+    
+            var circle_marker_d422344361778f87733eb9036d53d548 = L.circleMarker(
+                [-0.5228, 166.9315],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_f86b5281d19eb478154d2801f889e8f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bead9c2a86e35c1150eb52d2a82b12a9 = $(`<div id="html_bead9c2a86e35c1150eb52d2a82b12a9" style="width: 100.0%; height: 100.0%;">Nauru - 639.0 persone/km²</div>`)[0];
+                popup_f86b5281d19eb478154d2801f889e8f0.setContent(html_bead9c2a86e35c1150eb52d2a82b12a9);
+            
+        
+
+        circle_marker_d422344361778f87733eb9036d53d548.bindPopup(popup_f86b5281d19eb478154d2801f889e8f0)
+        ;
+
+        
+    
+    
+            var circle_marker_f658230b8ccad7d8ed6bb918c0671dca = L.circleMarker(
+                [-7.1095, 155.3328],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_ac05f57684d2dd79fbf6b24670034f8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_525127b5f2c558d58b9988f790a980e0 = $(`<div id="html_525127b5f2c558d58b9988f790a980e0" style="width: 100.0%; height: 100.0%;">Tuvalu - 379.8667 persone/km²</div>`)[0];
+                popup_ac05f57684d2dd79fbf6b24670034f8b.setContent(html_525127b5f2c558d58b9988f790a980e0);
+            
+        
+
+        circle_marker_f658230b8ccad7d8ed6bb918c0671dca.bindPopup(popup_ac05f57684d2dd79fbf6b24670034f8b)
+        ;
+
+        
+    
+    
+            var circle_marker_16cbb886e99eb7357ca6d2853c7a2681 = L.circleMarker(
+                [41.9029, 12.4534],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_6b12e0a1cf3fe2e7870af203eaaf655e);
+        
+    
+        var popup_90b4dc0a3fa8f8490aea07e4a6d91a23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13bb8ca1db7228da9761061e5b779524 = $(`<div id="html_13bb8ca1db7228da9761061e5b779524" style="width: 100.0%; height: 100.0%;">Vatican City - 1177.2727 persone/km²</div>`)[0];
+                popup_90b4dc0a3fa8f8490aea07e4a6d91a23.setContent(html_13bb8ca1db7228da9761061e5b779524);
+            
+        
+
+        circle_marker_16cbb886e99eb7357ca6d2853c7a2681.bindPopup(popup_90b4dc0a3fa8f8490aea07e4a6d91a23)
+        ;
+
+        
+    
+</script>
+</html>
